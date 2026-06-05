@@ -2,10 +2,7 @@ import Experience1 from "@/components/section/LineUp/Experience/1"
 import Experience2 from "@/components/section/LineUp/Experience/2"
 import Experience3 from "@/components/section/LineUp/Experience/3"
 import Experience4 from "@/components/section/LineUp/Experience/4"
-;import { kapakana } from '@/fonts/kapanaka'
-
-
-import { ProgressiveBlur } from '@/components/ui/progressive-blur';
+import { kapakana } from '@/fonts/kapanaka'
 
 export default function ExperienceTimeline() {
 

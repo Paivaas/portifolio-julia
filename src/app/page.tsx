@@ -5,6 +5,7 @@ import Header from '@/components/section/header';
 import Menu from '@/components/section/menu';
 import LineUp from '@/components/section/LineUp';
 import AboutMe from '@/components/section/aboutMe';
+import Certifications from '@/components/section/Certifications';
 
 import { Pointer } from '@/components/ui/pointer';
 
@@ -14,8 +15,8 @@ export default function Home() {
       <Pointer />
       <Menu></Menu>
       <Header></Header>
-      <AboutMe></AboutMe>
       <LineUp></LineUp>
+      <Certifications></Certifications>
     </div>
   );
 }
