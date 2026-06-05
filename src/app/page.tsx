@@ -7,7 +7,7 @@ import LineUp from '@/components/section/lineup';
 
 export default function Home() {
   return (
-    <div className="flex flex-col p-4 ">
+    <div className="flex flex-col p-4">
       <Menu></Menu>
       <Header></Header>
       <LineUp></LineUp>
