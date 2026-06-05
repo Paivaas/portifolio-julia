@@ -12,7 +12,7 @@ import { kapakana } from '@/fonts/kapanaka'
 export default function Certifications() {
   const { t } = useTranslation();
   return (
-   <section className="w-full h-[50vh] flex flex-col gap-8 items-center">
+   <section className="w-full h-[50vh] flex flex-col gap-4 items-center">
 
       <h1 className={`${kapakana.className} text-7xl`}>Certificações</h1>
         <div className=' flex flex-row gap-4'>
@@ -72,7 +72,7 @@ export default function Certifications() {
 
         </div>
 
- <div className=' flex flex-row gap-4'>
+        <div className=' flex flex-row gap-4'>
             
             <Card className="w-full h-fit flex gap-0 max-w-sm p-4">
                 <div className='flex gap-4'>

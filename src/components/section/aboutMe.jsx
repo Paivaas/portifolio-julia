@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function AboutMe() {
   const { t } = useTranslation();
   return (
-   <section className="w-full min-h-[80vh] flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12 px-6">
+   <section className="w-full flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12 px-6">
     <div className="relative w-64 h-64 md:w-95 md:h-75 shrink-0">
       <Image
         src="/icon-profile.jpg"

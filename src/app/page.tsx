@@ -14,9 +14,12 @@ export default function Home() {
     <div className="flex flex-col p-4">
       <Pointer />
       <Menu></Menu>
-      <Header></Header>
-      <LineUp></LineUp>
-      <Certifications></Certifications>
+      <div className="flex flex-col gap-34">
+        <Header></Header>
+        <AboutMe></AboutMe>
+        <LineUp></LineUp>
+        <Certifications></Certifications>
+      </div>
     </div>
   );
 }
