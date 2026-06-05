@@ -16,29 +16,32 @@
     "content": "Possuo perfil criativo, com interesse na área da comunicação e tecnologia, aliando habilidades técnicas à clareza na transmissão de informações. Tenho experiência em cibersegurança, com foco em boas práticas de proteção da informação, conscientização sobre segurança digital e apoio na prevenção de riscos em ambientes tecnológicos. Acredito na importância do entrelace entre tecnologia e comunicação para o desenvolvimento de soluções eficientes, seguras e centradas no usuário."
   },
   "line-up": {
+    "commun": {
+      "assignments": "Principais atribuições"
+    },
     "1": {
       "data": "2023-2024",
       "title": "Técnico - Desenvolviemento de Sistemas",
       "location": "SENAI",
-      "description": "Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século."
+      "description": "Formação com foco em lógica de programação, desenvolvimento de sistemas e fundamentos de tecnologia voltados ao mercado de trabalho."
     },
     "2": {
       "data": "2025-2026",
       "title": "Formação - Gestão da Tecnologia da Informação",
       "location": "Universidade Paulista",
-      "description": "Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século."
+      "description": "Formação focada na gestão de recursos tecnológicos, sistemas de informação e projetos de TI nas organizações."
     },
     "3": {
       "data": "2025-2026",
       "title": "Aprendiz em Cybersecurity",
       "location": "Keeggo",
-      "description": "Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século."
+      "description": "Atuação como aprendiz na área de cibersegurança, com foco em privacidade e proteção de dados, análise de vulnerabilidades e boas práticas de segurança da informação."
     },
     "4": {
-      "data": "2024-Atual",
+      "data": "2026-Atual",
       "title": "Desenvolvedora Frontend Jr",
       "location": "Visual Mix",
-      "description": "Lorem Ipsum is simply..."
+      "description": "Experiência profissional no desenvolvimento de interfaces web modernas, responsivas e centradas na experiência do usuário no mercado de varejo."
     }
   }
 }

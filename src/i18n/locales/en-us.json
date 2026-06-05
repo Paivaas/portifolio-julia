@@ -11,28 +11,37 @@
     "3": "2029 - Marketing"
   },
   "about-me": {
-    "title": "ABOUT ME:",
-    "description": "Systems Development Technician with an interest in front-end development, currently studying Information Technology Management.",
-    "content": "I have a creative profile with a strong interest in communication and technology, combining technical skills with clear information delivery. I have experience in cybersecurity, focusing on information security best practices, digital security awareness, and risk prevention in technological environments. I believe in the integration of technology and communication to develop efficient, secure, and user-centered solutions."
+    "title": "About Me:",
+    "description": "Systems Development Technician with an interest in front-end development, currently pursuing a degree in Information Technology Management.",
+    "content": "I have a creative profile with a strong interest in communication and technology, combining technical skills with the ability to convey information clearly. I have experience in cybersecurity, focusing on information protection best practices, digital security awareness, and risk prevention in technological environments. I believe in the importance of integrating technology and communication to develop efficient, secure, and user-centered solutions."
   },
   "line-up": {
+    "commun": {
+      "assignments": "Main Responsibilities"
+    },
     "1": {
       "data": "2023-2024",
-      "title": "Systems Development Technician",
+      "title": "Technical Degree - Systems Development",
       "location": "SENAI",
-      "description": "Lorem Ipsum is simply..."
+      "description": "Training focused on programming logic, systems development, and technology fundamentals aimed at the job market."
     },
     "2": {
-      "data": "2023-2024",
-      "title": "Systems Development Technician",
-      "location": "SENAI",
-      "description": "Lorem Ipsum is simply..."
+      "data": "2025-2026",
+      "title": "Degree - Information Technology Management",
+      "location": "Paulista University",
+      "description": "Program focused on managing technological resources, information systems, and IT projects within organizations."
     },
     "3": {
-      "data": "2023-2024",
-      "title": "Systems Development Technician",
-      "location": "SENAI",
-      "description": "Lorem Ipsum is simply..."
+      "data": "2025-2026",
+      "title": "Cybersecurity Apprentice",
+      "location": "Keeggo",
+      "description": "Worked as a cybersecurity apprentice, focusing on data privacy and protection, vulnerability analysis, and information security best practices."
+    },
+    "4": {
+      "data": "2026-Present",
+      "title": "Junior Front-End Developer",
+      "location": "Visual Mix",
+      "description": "Professional experience developing modern, responsive, and user-centered web interfaces for the retail market."
     }
   }
 }

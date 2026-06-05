@@ -31,7 +31,7 @@ export default function ExperienceTimeline() {
             className="mt-4"
           >
             <CollapsibleTrigger className="flex items-center gap-2 text-[#1976D2] font-medium">
-              Principais atribuições
+               {t("line-up.commun.assignments")}
               <ChevronsUpDown size={16} />
             </CollapsibleTrigger>
 

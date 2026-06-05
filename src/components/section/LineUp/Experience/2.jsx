@@ -6,14 +6,14 @@ export default function Experience1() {
   return (
     <div className="grid gap-x-4 grid-cols-[24px_350px] text-xs">
         <div></div>
-        <p>{t("line-up.1.data")}</p>
+        <p>{t("line-up.2.data")}</p>
 
         <p className="bg-black text-white w-6 h-6 rounded-full flex justify-center items-center">
           2
         </p>
 
         <h1 className="font-semibold text-sm">
-          {t("line-up.1.title")}
+          {t("line-up.2.title")}
         </h1>
 
         <div className="flex justify-center items-center">
@@ -22,9 +22,9 @@ export default function Experience1() {
 
         <div>
           <span className="text-zinc-500">
-            {t("line-up.1.location")}
+            {t("line-up.2.location")}
           </span>
-          <p>{t("line-up.1.description")}</p>
+          <p>{t("line-up.2.description")}</p>
         </div>
       </div>
   );
