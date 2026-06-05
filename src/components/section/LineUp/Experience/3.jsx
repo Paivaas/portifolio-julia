@@ -3,6 +3,12 @@ import { useTranslation } from "react-i18next";
 import { ChevronsUpDown } from "lucide-react";
 
 import {
+  Card,
+  CardContent,
+  CardFooter,
+} from "@/components/ui/card"
+
+import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
@@ -36,8 +42,18 @@ export default function ExperienceTimeline() {
             </CollapsibleTrigger>
 
             <CollapsibleContent className="mt-4 flex flex-col gap-6">
-              <div className=" pl-4">
-               <p>Conteudo</p>
+              <div >
+
+                <Card className="w-[450px]">
+                  <CardContent>
+                    <p> {t("line-up.3.more.1.title")}</p>
+                    <p className="text-xs"> {t("line-up.3.more.1.description")}</p>
+
+                    <p className="mt-4"> {t("line-up.3.more.2.title")}</p>
+                    <p className="text-xs"> {t("line-up.3.more.2.description")}</p>
+                  </CardContent>
+                </Card>
+
                </div>
             </CollapsibleContent>
           </Collapsible>

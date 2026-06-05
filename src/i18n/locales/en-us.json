@@ -13,7 +13,7 @@
   "about-me": {
     "title": "About Me:",
     "description": "Systems Development Technician with an interest in front-end development, currently pursuing a degree in Information Technology Management.",
-    "content": "I have a creative profile with a strong interest in communication and technology, combining technical skills with the ability to convey information clearly. I have experience in cybersecurity, focusing on information protection best practices, digital security awareness, and risk prevention in technological environments. I believe in the importance of integrating technology and communication to develop efficient, secure, and user-centered solutions."
+    "content": "I have a creative profile with a strong interest in communication and technology, combining technical skills with clear information delivery. I have experience in cybersecurity, focusing on information protection best practices, digital security awareness, and risk prevention in technological environments. I believe in the importance of integrating technology and communication to develop efficient, secure, and user-centered solutions."
   },
   "line-up": {
     "commun": {
@@ -35,13 +35,35 @@
       "data": "2025-2026",
       "title": "Cybersecurity Apprentice",
       "location": "Keeggo",
-      "description": "Worked as a cybersecurity apprentice, focusing on data privacy and protection, vulnerability analysis, and information security best practices."
+      "description": "Worked as a cybersecurity apprentice, focusing on data privacy and protection, vulnerability assessment, and information security best practices.",
+      "more": {
+        "words": "ISO 27001 - LGPD - Pentesting",
+        "1": {
+          "title": "Offensive Security",
+          "description": "Participated in the migration and implementation of the Privacy Tools platform, supporting companies such as Banco do Nordeste, Sura, and Yamaha in risk management, privacy activities, and LGPD compliance."
+        },
+        "2": {
+          "title": "Governance and Privacy",
+          "description": "Contributed to the planning, execution, and analysis of internal phishing campaigns, helping to raise user awareness and strengthen the security culture. Supported Red Team activities by assisting with external vulnerability identification, risk analysis, and security testing at Sompo Seguros."
+        }
+      }
     },
     "4": {
       "data": "2026-Present",
       "title": "Junior Front-End Developer",
       "location": "Visual Mix",
-      "description": "Professional experience developing modern, responsive, and user-centered web interfaces for the retail market."
+      "description": "Professional experience in developing modern, responsive, and user-centered web interfaces for the retail industry.",
+      "more": {
+        "words": "Git - Next.js - Tailwind CSS - Node.js",
+        "1": {
+          "title": "User Experience Design",
+          "description": "Focused on user experience for building digital interfaces through journey analysis, flow organization, and layout structuring."
+        },
+        "2": {
+          "title": "Web Development",
+          "description": "Development of web applications and interfaces using modern technologies, focusing on performance, responsiveness, usability, and programming best practices to deliver efficient and functional solutions."
+        }
+      }
     }
   }
 }

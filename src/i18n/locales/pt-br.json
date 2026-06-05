@@ -35,13 +35,35 @@
       "data": "2025-2026",
       "title": "Aprendiz em Cybersecurity",
       "location": "Keeggo",
-      "description": "Atuação como aprendiz na área de cibersegurança, com foco em privacidade e proteção de dados, análise de vulnerabilidades e boas práticas de segurança da informação."
+      "description": "Atuação como aprendiz na área de cibersegurança, com foco em privacidade e proteção de dados, análise de vulnerabilidades e boas práticas de segurança da informação.",
+      "more": {
+        "words": "ISO/ 27001 - LGPD - Pentest",
+        "1": {
+          "title": "Segurança ofensiva",
+          "description": "Atuação na migração e implantação da plataforma Privacy Tools, apoiando empresas como Banco do Nordeste, Sura e Yamaha na gestão de riscos, atividades de privacidade e adequação à LGPD."
+        },
+        "2": {
+          "title": "Governança e Privacidade",
+          "description": "Participação no planejamento, execução e análise de campanhas internas de phishing, contribuindo para a conscientização dos usuários e fortalecimento da cultura de segurança. Suporte às atividades de Red Team, auxiliando na identificação de vulnerabilidades externas, análise de riscos e testes de segurança na Sompo Seguros."
+        }
+      }
     },
     "4": {
       "data": "2026-Atual",
       "title": "Desenvolvedora Frontend Jr",
       "location": "Visual Mix",
-      "description": "Experiência profissional no desenvolvimento de interfaces web modernas, responsivas e centradas na experiência do usuário no mercado de varejo."
+      "description": "Experiência profissional no desenvolvimento de interfaces web modernas, responsivas e centradas na experiência do usuário no mercado de varejo.",
+      "more": {
+        "words": "GIT - Next.js - Tailwind - Node.js",
+        "1": {
+          "title": "User Experience Desing ",
+          "description": "Foco na experiência do usuario para construção de interfaces digitais atraves da análise de jornadas, organização de fluxos e estruturação de layouts."
+        },
+        "2": {
+          "title": "Desenvolvimento web",
+          "description": "Desenvolvimento de aplicações e interfaces para a web utilizando tecnologias modernas, com foco em desempenho, responsividade, usabilidade e boas práticas de programação, garantindo soluções funcionais e eficientes."
+        }
+      }
     }
   }
 }
