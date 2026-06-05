@@ -1,5 +1,5 @@
-import { useTranslation } from 'react-i18next';
-import { kapakana } from '@/font';
+import { useTranslation } from 'react-i18next'
+;import { kapakana } from '@/fonts/kapanaka'
 
 export default function Menu() {
   const { t } = useTranslation();

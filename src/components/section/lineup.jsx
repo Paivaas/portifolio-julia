@@ -15,7 +15,7 @@ export default function ExperienceTimeline() {
             <div> <span className='text-zinc-500'>{t('line-up.1.location')}</span> <p>{t('line-up.1.description')}</p></div>
         </div>
 
-        <div class="grid gap-x-4 grid-cols-[32px_550px]">
+        <div className="grid gap-x-4 grid-cols-[32px_550px]">
             <div></div>
             <p className='text-sm'>{t('line-up.2.data')}</p>
             <p className='bg-black text-white w-8 h-8 rounded-4xl flex justify-center items-center'>2</p>
@@ -24,7 +24,7 @@ export default function ExperienceTimeline() {
             <div> <span className='text-zinc-500'>{t('line-up.2.location')}</span> <p>{t('line-up.2.description')}</p></div>
         </div>
 
-        <div class="grid gap-x-4 grid-cols-[32px_550px]">
+        <div className="grid gap-x-4 grid-cols-[32px_550px]">
             <div></div>
             <p className='text-sm'>{t('line-up.3.data')}</p>
             <p className='bg-[#1976D2] text-white w-8 h-8 rounded-4xl flex justify-center items-center'>3</p>
