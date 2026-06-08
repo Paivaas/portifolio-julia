@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { ChevronsUpDown } from "lucide-react";
+import Image from "next/image";
 
 import {
   Card,
   CardContent,
-  CardFooter,
 } from "@/components/ui/card"
 
 import {
@@ -42,10 +42,13 @@ export default function ExperienceTimeline() {
             </CollapsibleTrigger>
 
             <CollapsibleContent className="mt-4 flex flex-col gap-6">
-             <Card className="w-[450px]">
+             <Card className="w-112.5">
                   <CardContent>
                     <p> {t("line-up.4.more.1.title")}</p>
                     <p className="text-xs"> {t("line-up.4.more.1.description")}</p>
+                    <div className="relative w-2 h-2 md:w-6 md:h-6 shrink-0"> 
+                      <Image src="/figma.svg" alt="Foto de perfil" fill className="object-cover rounded-sm"/>
+                    </div>
 
                     <p className="mt-4"> {t("line-up.4.more.2.title")}</p>
                     <p className="text-xs"> {t("line-up.4.more.2.description")}</p>

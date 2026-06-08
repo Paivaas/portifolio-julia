@@ -2,10 +2,10 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { ChevronsUpDown } from "lucide-react";
 
+
 import {
   Card,
   CardContent,
-  CardFooter,
 } from "@/components/ui/card"
 
 import {
@@ -44,14 +44,15 @@ export default function ExperienceTimeline() {
             <CollapsibleContent className="mt-4 flex flex-col gap-6">
               <div >
 
-                <Card className="w-[450px]">
+                <Card className="w-112.5">
                   <CardContent>
                     <p> {t("line-up.3.more.1.title")}</p>
                     <p className="text-xs"> {t("line-up.3.more.1.description")}</p>
-
+                    
                     <p className="mt-4"> {t("line-up.3.more.2.title")}</p>
                     <p className="text-xs"> {t("line-up.3.more.2.description")}</p>
                   </CardContent>
+                  
                 </Card>
 
                </div>

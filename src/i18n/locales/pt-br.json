@@ -1,8 +1,11 @@
 {
+  "commun": {
+    "loren-frase": "Lorem Ipsum é simplesmente uma simulação de texto "
+  },
   "header": {
     "welcome": "Bem vindo(a) a meu:",
     "title": "Portifolio.",
-    "name": "Julia Paiva."
+    "name": "Julia Paiva"
   },
   "education": {
     "title": "Formação educacional",
