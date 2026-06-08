@@ -1,34 +1,21 @@
 'use client'
 
 import { useTranslation } from 'react-i18next'
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select'
 
 export default function LanguageSelector() {
   const { i18n } = useTranslation()
 
-  const handleChangeLanguage = (value) => {
-    i18n.changeLanguage(value)
+  const toggleLanguage = () => {
+    const newLanguage = i18n.language.startsWith('pt') ? 'en' : 'pt'
+    i18n.changeLanguage(newLanguage)
   }
 
   return (
-    <Select onValueChange={handleChangeLanguage}>
-      <SelectTrigger>
-        <SelectValue placeholder="Idioma" />
-      </SelectTrigger>
-
-      <SelectContent>
-        <SelectGroup>
-          <SelectItem value="pt">pt-BR</SelectItem>
-          <SelectItem value="en">en-US</SelectItem>
-        </SelectGroup>
-      </SelectContent>
-    </Select>
+    <button
+      onClick={toggleLanguage}
+      className="px-4 py-2 border rounded-md cursor-pointer"
+    >
+      {i18n.language.startsWith('pt') ? '🇧🇷 PT' : '🇺🇸 EN'}
+    </button>
   )
 }

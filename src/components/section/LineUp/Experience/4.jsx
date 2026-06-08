@@ -21,7 +21,7 @@ export default function ExperienceTimeline() {
   return (
     <section className="flex flex-col gap-6 w-full justify-center items-center">
 
-      <div className="grid gap-x-4 grid-cols-[24px_350px] text-xs">
+      <div className="grid gap-x-4 grid-cols-[24px_290px] md:grid-cols-[24px_350px] text-xs">
         <div></div>
         <p>{t("line-up.4.data")}</p>
         <p className="bg-[#DC308D] text-white w-6 h-6 rounded-full flex justify-center items-center"> 3</p>
@@ -42,11 +42,11 @@ export default function ExperienceTimeline() {
             </CollapsibleTrigger>
 
             <CollapsibleContent className="mt-4 flex flex-col gap-6">
-             <Card className="w-112.5">
+             <Card className="w-72 md:w-112.5 text-justify">
                   <CardContent>
                     <p> {t("line-up.4.more.1.title")}</p>
                     <p className="text-xs"> {t("line-up.4.more.1.description")}</p>
-                    <div className="relative w-2 h-2 md:w-6 md:h-6 shrink-0"> 
+                    <div className="relative w-6 h-6 md:w-6 md:h-6 shrink-0"> 
                       <Image src="/figma.svg" alt="Foto de perfil" fill className="object-cover rounded-sm"/>
                     </div>
 

@@ -7,7 +7,7 @@ export default function ExperienceTimeline() {
 
   return (
 
-    <section className="flex flex-col gap-6 w-full justify-center items-center ">
+    <section className="flex flex-col gap-6 w-full justify-center items-center px-6 md:p-0">
 
       <h1 className="text-7xl" style={{ fontFamily: "var(--font-kapakana)" }}>Line Up</h1>
       <Experience1></Experience1>

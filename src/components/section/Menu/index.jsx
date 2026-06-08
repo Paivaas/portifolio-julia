@@ -5,8 +5,9 @@ export default function Menu() {
   const { t } = useTranslation();
   return (
     <menu className="flex justify-between">
-        <LanguageSelector />
+        <p>2025</p>
         <p >{t('header.name')}</p>
+       <LanguageSelector />
     </menu>
   )
 }
