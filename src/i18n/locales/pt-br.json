@@ -1,18 +1,13 @@
 {
   "commun": {
     "loren-frase": "Lorem Ipsum é simplesmente uma simulação de texto ",
-    "area": "Tecnologia | Comunicação"
+    "area": "Tecnologia | Comunicação",
+    "contact": "Fale comigo!"
   },
   "header": {
     "welcome": "Bem vindo(a) a meu:",
     "title": "Portifolio.",
     "name": "Julia Paiva"
-  },
-  "education": {
-    "title": "Formação educacional",
-    "1": "2024 - Desenvolvimento de Sistema",
-    "2": "2026 - Gestão da Tecnologia da Informação",
-    "3": "2029 - Marketing"
   },
   "about-me": {
     "title": "Sobre mim:",
