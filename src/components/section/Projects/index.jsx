@@ -13,7 +13,7 @@ const enviarWhatsApp = () => {
 export default function Projects() {
   const { t } = useTranslation();
   return (
-   <section className="w-full flex flex-col gap-4 items-center">
+   <section className="w-full h-[50vh] bg-[#2B2B2B] flex flex-col gap-4 items-center">
        
   </section>
 

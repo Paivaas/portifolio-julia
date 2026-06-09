@@ -46,15 +46,11 @@ export default function ExperienceTimeline() {
                   <CardContent>
                     <p> {t("line-up.4.more.1.title")}</p>
                     <p className="text-xs"> {t("line-up.4.more.1.description")}</p>
-                    <div className="relative w-6 h-6 md:w-6 md:h-6 shrink-0"> 
-                      <Image src="/tools/figma.svg" alt="Foto de perfil" fill className="object-cover rounded-sm"/>
-                      <Image src="/figma.svg" alt="Foto de perfil" fill className="object-cover rounded-sm"/>
-                      <Image src="/figma.svg" alt="Foto de perfil" fill className="object-cover rounded-sm"/>
-                    </div>
-
                     <p className="mt-4"> {t("line-up.4.more.2.title")}</p>
                     <p className="text-xs"> {t("line-up.4.more.2.description")}</p>
                   </CardContent>
+
+                  
                 </Card>
             </CollapsibleContent>
           </Collapsible>

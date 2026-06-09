@@ -5,8 +5,8 @@ import Header from '@/components/section/Header/index';
 import Menu from '@/components/section/Menu';
 import LineUp from '@/components/section/LineUp';
 import AboutMe from '@/components/section/AboutMe';
-import Certifications from '@/components/section/Certifications';
 import Contact from '@/components/section/Contact';
+import Projects from '@/components/section/Projects';
 
 import { Pointer } from '@/components/ui/pointer';
 
@@ -19,7 +19,6 @@ export default function Home() {
         <Header></Header>
         <AboutMe></AboutMe>
         <LineUp></LineUp>
-        <Certifications></Certifications>
         <Contact></Contact>
       </div>
     </div>
