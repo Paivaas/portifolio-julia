@@ -1,7 +1,7 @@
 {
   "commun": {
     "loren-frase": "Lorem Ipsum é simplesmente uma simulação de texto ",
-    "area": "Tecnologia | Comunicação"
+    "area": "Tecnologia |omunicação"
   },
   "header": {
     "welcome": "Bem vindo(a) a meu:",
@@ -17,8 +17,7 @@
   "about-me": {
     "title": "Sobre mim:",
     "description": "Técnica em Desenvolvimento de Sistemas com interresse no desenvolvimento front-end cursando Gestão da tecnologia da informação",
-    "content": "Possuo perfil criativo, com interesse na área da comunicação e tecnologia, aliando habilidades técnicas à clareza na transmissão de informações. Tenho experiência em cibersegurança, com foco em boas práticas de proteção da informação, conscientização sobre segurança digital e apoio na prevenção de riscos em ambientes tecnológicos.",
-    "content-2": "Acredito na importância do entrelace entre tecnologia e comunicação para o desenvolvimento de soluções eficientes, seguras e centradas no usuário."
+    "content": "Possuo perfil criativo, com interesse na área da comunicação e tecnologia, aliando habilidades técnicas à clareza na transmissão de informações. Tenho experiência em cibersegurança, com foco em boas práticas de proteção da informação, conscientização sobre segurança digital e apoio na prevenção de riscos em ambientes tecnológicos. Acredito na importância do entrelace entre tecnologia e comunicação para o desenvolvimento de soluções eficientes, seguras e centradas no usuário."
   },
   "line-up": {
     "commun": {

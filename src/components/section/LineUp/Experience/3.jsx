@@ -24,7 +24,7 @@ export default function ExperienceTimeline() {
       <div className="grid gap-x-4 grid-cols-[24px_290px] md:grid-cols-[24px_350px] text-xs">
         <div></div>
         <p>{t("line-up.3.data")}</p>
-        <p className="bg-[#1976D2] text-white w-6 h-6 rounded-full flex justify-center items-center"> 3</p>
+        <p className="bg-[#DE5CA2] text-white w-6 h-6 rounded-full flex justify-center items-center"> 3</p>
         <h1 className="font-semibold text-sm"> {t("line-up.3.title")} </h1>
         <div className="flex justify-center items-center"> <span className="w-1 h-full mt-10 bg-zinc-300 rounded-2xl"></span> </div>
         <div>
@@ -36,7 +36,7 @@ export default function ExperienceTimeline() {
             onOpenChange={setIsOpen}
             className="mt-4"
           >
-            <CollapsibleTrigger className="flex items-center gap-2 text-[#1976D2] font-medium">
+            <CollapsibleTrigger className="flex items-center gap-2 text-[#DE5CA2] font-medium">
                {t("line-up.commun.assignments")}
               <ChevronsUpDown size={16} />
             </CollapsibleTrigger>
