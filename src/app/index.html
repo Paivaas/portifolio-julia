@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Jogo de Vestir</title>
+    <style>
+        #container {
+            position: relative;
+            width: 300px;
+            height: 500px;
+            margin-bottom: 20px;
+        }
+
+        .layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        button {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <img src="boneca.png" class="layer" />
+        <img id="roupa" class="layer" />
+    </div>
+
+    <button onclick="trocarRoupa('blusa1.png')">Blusa 1</button>
+    <button onclick="trocarRoupa('blusa2.png')">Blusa 2</button>
+    <button onclick="tirarRoupa()">Sem blusa</button>
+
+    <script>
+        const roupa = document.getElementById('roupa');
+
+        function trocarRoupa(img) {
+            roupa.src = img;
+        }
+
+        function tirarRoupa() {
+            roupa.src = "";
+        }
+    </script>
+
+</body>
+
+</html>

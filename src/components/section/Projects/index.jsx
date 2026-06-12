@@ -1,20 +1,52 @@
-import { useTranslation } from 'react-i18next';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
-const enviarWhatsApp = () => {
-  const numero = "5511970167820"; // código do país + DDD + número
-  const mensagem = "Olá! Vi seu portfólio e gostaria de conversar.";
-  
-  const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
-  
-  window.open(url, "_blank");
-};
+import CursorSparkles from "@/components/ui/CursorSparkles"
 
 export default function Projects() {
-  const { t } = useTranslation();
   return (
-   <section className="w-full h-[50vh] bg-[#2B2B2B] flex flex-col gap-4 items-center">
-       
-  </section>
+      <section className="w-full flex flex-col gap-8  justify-center  items-center">
+    
+        <h1 className='text-5xl'>Projetos</h1>
 
-  )}
+        <div className="flex flex-wrap w-[80vw] gap-4 px-34 relative z-10">
+
+        <div className="w-75">
+          <p className="text-xs">2025</p>
+          <h1 className="text-sm font-semibold">Consumo de API</h1>
+          <p className="text-xs">Descrição</p>
+          <div className="bg-zinc-100 w-75 h-50 rounded-sm mt-2"></div>
+        </div>
+
+      <div className="w-75">
+          <p className="text-xs">2025</p>
+          <h1 className="text-sm font-semibold">Planejamento de Marketing</h1>
+          <p className="text-xs">Descrição</p>
+          <div className="bg-zinc-100 w-75 h-50 rounded-sm mt-2"></div>
+      </div>
+
+      <div className="w-75">
+          <p className="text-xs">2025</p>
+          <h1 className="text-sm font-semibold">Plano de melhoria </h1>
+          <p className="text-xs">Descrição</p>
+          <div className="bg-zinc-100 w-75 h-50 rounded-sm mt-2"></div>
+        </div>
+
+        <div className="w-75">
+          <p className="text-xs">2025</p>
+          <h1 className="text-sm font-semibold">Plano de melhoria </h1>
+          <p className="text-xs">Descrição</p>
+          <div className="bg-zinc-100 w-75 h-50 rounded-sm mt-2"></div>
+        </div>
+
+      <div className="w-75">
+          <p className="text-xs">2025</p>
+          <h1 className="text-sm font-semibold">Plano de melhoria </h1>
+          <p className="text-xs">Descrição</p>
+          <div className="bg-zinc-100 w-75 h-50 rounded-sm mt-2"></div>
+        </div>
+        </div>
+
+      </section>
+  )
+}
+
+

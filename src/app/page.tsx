@@ -12,13 +12,14 @@ import { Pointer } from '@/components/ui/pointer';
 
 export default function Home() {
   return (
-    <div className="flex flex-col p-4">
+    <div className="flex flex-col">
       <Pointer />
       <Menu></Menu>
       <div className="flex flex-col gap-24">
         <Header></Header>
         <AboutMe></AboutMe>
         <LineUp></LineUp>
+        <Projects></Projects>
         <Contact></Contact>
       </div>
     </div>
