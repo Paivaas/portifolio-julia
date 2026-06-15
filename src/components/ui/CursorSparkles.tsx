@@ -45,15 +45,7 @@ const styles = `
     overflow: hidden;
   }
 
-  .glow-point {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-    box-shadow: 0rem 0rem 1.2rem 0.6rem rgb(239 42 201);
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-  }
+  
 
   .star {
     position: absolute;
