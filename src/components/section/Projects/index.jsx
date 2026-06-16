@@ -14,7 +14,7 @@ export default function Projects() {
     
         <h1 className='text-5xl'>Projetos</h1>
 
-        <div className="flex flex-wrap w-screen md:w-[80vw] gap-4 justify-center  relative z-10">
+        <div className="flex flex-wrap w-screen md:w-[80vw] gap-8 justify-center  relative z-10">
 
           <div className="w-75">
             <p className="text-xs">2025</p>
@@ -37,29 +37,7 @@ export default function Projects() {
             <div className="bg-zinc-100 w-75 h-50 rounded-sm mt-2"></div>
           </div>
 
-          <div className="w-75">
-            <p className="text-xs">2025</p>
-            <h1 className="text-sm font-semibold">RTA Físico — Projeto Corporativo</h1>
-            <p className="text-xs"> 🔵 CyberSecurity • Red Team</p>
-            <div className="bg-zinc-100 w-75 h-50 rounded-sm mt-2">
-              
-            </div>
-          </div>
-
-        <div className="w-75">
-            <p className="text-xs">2025</p>
-            <h1 className="text-sm font-semibold">Plano de melhoria </h1>
-            <p className="text-xs">Descrição</p>
-            <div className="bg-zinc-100 w-75 h-50 rounded-sm mt-2"></div>
-          </div>
-
-          <div className="w-75">
-            <p className="text-xs">2025</p>
-            <h1 className="text-sm font-semibold">Plano de melhoria </h1>
-            <p className="text-xs">Descrição</p>
-            <div className="bg-zinc-100 w-75 h-50 rounded-sm mt-2"></div>
-          </div>
-
+        
 
         </div>
         

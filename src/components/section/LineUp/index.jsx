@@ -12,9 +12,9 @@ export default function ExperienceTimeline() {
 
       <h1 className="text-7xl" style={{ fontFamily: "var(--font-kapakana)" }}>Line Up</h1>
         <Reveal><Experience1></Experience1></Reveal>
-         <Reveal><Experience2></Experience2></Reveal>
-          <Reveal><Experience3></Experience3></Reveal>
-           <Reveal><Experience4></Experience4></Reveal>
+        <Reveal><Experience2></Experience2></Reveal>
+        <Reveal><Experience3></Experience3></Reveal>
+        <Reveal><Experience4></Experience4></Reveal>
     </section>
   );
 }
