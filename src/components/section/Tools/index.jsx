@@ -16,14 +16,14 @@ export default function Tools() {
    
         <div className="relative flex h-80 w-80 items-center justify-center overflow-hidden">
 
-            <OrbitingCircles iconSize={40} radius={130}>
+            <OrbitingCircles iconSize={40} radius={130} speed={1}>
                 <Image src="/tools/figma.svg" alt="figma" fill className="object-fit"/>
                 <Image src="/tools/git.svg" alt="git" fill className="object-fit"/>
                 <Image src="/tools/react.svg" alt="react" fill className="object-fit"/>
                 <Image src="/tools/typescript.svg" alt="tailwind" fill className="object-fit"/>
             </OrbitingCircles>
 
-            <OrbitingCircles iconSize={40} radius={70} reverse speed={2}>
+            <OrbitingCircles iconSize={40} radius={70} reverse speed={1}>
                 <Image src="/tools/tailwind.svg" alt="tailwind" fill className="object-fit"/>
                 <Image src="/tools/linux.svg" alt="tailwind" fill className="object-fit"/>
                 <Image src="/tools/node.svg" alt="node" fill className="object-fit"/>
