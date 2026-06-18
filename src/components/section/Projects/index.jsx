@@ -1,12 +1,7 @@
 
-import CursorSparkles from "@/components/ui/CursorSparkles"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
+
+import Image from "next/image";
+
 
 export default function Projects() {
   return (
@@ -18,9 +13,11 @@ export default function Projects() {
 
           <div className="w-75">
             <p className="text-xs">2025</p>
-            <h1 className="text-sm font-semibold">Consumo de API</h1>
-            <p className="text-xs">🟢 Descrição</p>
-            <div className="bg-zinc-100 w-75 h-50 rounded-sm mt-2"></div>
+            <h1 className="text-sm font-semibold">Painel de metricas NPS</h1>
+            <p className="text-xs">🟢 Produção, prototipação e criação de painel </p>
+            <div className="relative w-[300px] h-[200px] bg-zinc-100 rounded-sm mt-2 overflow-hidden border-2">
+              <Image src="/painel.png" alt="figma" fill  className="object-cover"  />
+            </div>
           </div>
 
           <div className="w-75">

@@ -10,13 +10,13 @@ export default function AboutMe() {
         <Image src="/foto-cam.svg" alt="Foto de perfil" fill className="object-fit rotate-[-10deg]" />
       </div>
 
-    <div className="w-full  flex flex-col gap-4 text-center md:text-left">
-      <h2 className='text-6xl'>{t('about-me.title')}</h2>
-      <WordRotate duration={3800}
-      className="text-sm  text-black dark:text-white"
-      words={["Experiencia em Cybersecurity", "Desenvolvedora Front-end" , "Formada em Gestão de TI" , "Estudante de Marketing"]}
-    />
-     <p className='text-sm text-justify' >{t('about-me.content')}</p>
+      <div className="w-full  flex flex-col gap-4 text-center md:text-left">
+        <h2 className='text-6xl'>{t('about-me.title')}</h2>
+        <WordRotate duration={3800}
+        className="text-sm  text-black dark:text-white"
+        words={["Experiencia em Cybersecurity", "Desenvolvedora Front-end" , "Formada em Gestão de TI" , "Estudante de Marketing"]}
+      />
+      <p className='text-sm text-justify' >{t('about-me.content')}</p>
     </div>
     
   </section>

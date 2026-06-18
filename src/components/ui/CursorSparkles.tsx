@@ -44,9 +44,6 @@ const styles = `
     z-index: 50;
     overflow: hidden;
   }
-
-  
-
   .star {
     position: absolute;
     z-index: 51;
@@ -107,7 +104,7 @@ const config: SparkleConfig = {
   minimumDistanceBetweenStars: 75,
   glowDuration: 75,
   maximumGlowPointSpacing: 10,
-  colors: ['255 0 220', '180 0 255'],
+  colors: ['255, 192, 203', '218, 112, 214', '252, 15, 192'],
   sizes: ['1.4rem', '1rem', '0.6rem'],
   animations: ['fall-1', 'fall-2', 'fall-3'],
 };

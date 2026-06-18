@@ -1,7 +1,6 @@
 "use client"
 
 import { OrbitingCircles } from "@/components/ui/orbiting-circles"
-import { Computer } from "lucide-react"
 import Image from "next/image";
 import "bootstrap-icons/font/bootstrap-icons.css";
 

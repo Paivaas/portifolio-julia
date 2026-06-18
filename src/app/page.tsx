@@ -14,17 +14,11 @@ import Reveal from '@/components/ui/Reveal';
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col style={{ fontFamily: 'var(--font-poppins)' }}">
       <Pointer />
 
       <div className="flex flex-col gap-24">
         <Header />
-        <Reveal>
-          <AboutMe />
-        </Reveal>
-        <Reveal>
-          <Tools />
-        </Reveal>
         <Reveal>
           <LineUp />
         </Reveal>
