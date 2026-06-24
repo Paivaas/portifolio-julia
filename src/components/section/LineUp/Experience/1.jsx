@@ -15,7 +15,10 @@ export default function Experience1() {
 
         <div />
         <div className="flex justify-center items-center"> <span className="w-1 h-full mt-10 bg-zinc-300 rounded-2xl"></span> </div>
-        <p>{t("line-up.1.description")}</p>
+        <div>
+           <span className="text-zinc-500"> {t("line-up.1.location")}  </span>
+           <p> {t("line-up.1.description")}</p>
+        </div>
         
     </div>
   );

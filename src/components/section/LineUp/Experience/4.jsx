@@ -18,8 +18,16 @@ export default function ExperienceTimeline() {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
 
+  
+   function soundOpenCollapsible() {
+    const audio = new Audio('/sounds/sound-bubble.mp3');
+    audio.play();
+  } 
+
+
+
   return (
-    <div className="grid gap-x-4 grid-cols-[290px_24px_290px] md:grid-cols-[290px_24px_350px] text-xs text-end">
+    <div className="grid gap-x-4 grid-cols-[290px_24px_290px] md:grid-cols-[290px_24px_350px] text-xs text-end hover:scale-105">
       
         <p>{t("line-up.4.data")}</p>
         <div />     
@@ -37,6 +45,7 @@ export default function ExperienceTimeline() {
         <div className="flex justify-center items-center"> </div>
         <Collapsible
             open={isOpen}
+            onClick={soundOpenCollapsible}
             onOpenChange={setIsOpen}
             className="mt-4 relative bottom-9"
           >

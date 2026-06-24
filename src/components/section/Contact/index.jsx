@@ -6,6 +6,14 @@ import { useTranslation } from 'react-i18next';
 import CursorSparkles from "@/components/ui/CursorSparkles"
 
 export default function Contact() {
+
+    
+function sendWhatsAppMessage() {
+  const phone = "5511970167820";
+  const message = "Oi, Julia! Vim através do seu portifólio.";
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+}
   const { t } = useTranslation();
   return (
     <CursorSparkles>
@@ -17,6 +25,7 @@ export default function Contact() {
               <TabsList variant="line">
                 <TabsTrigger value="email">Email</TabsTrigger>
                 <TabsTrigger value="linkedin">Linkedin</TabsTrigger>
+                <TabsTrigger value="telefone">Telefone</TabsTrigger>
               </TabsList>
 
               <TabsContent value="email">
@@ -34,6 +43,13 @@ export default function Contact() {
                 >
                   Ver perfil
                 </a>
+              </TabsContent>
+              <TabsContent value="telefone">
+                <button onClick={sendWhatsAppMessage} className="flex items-center gap-1 cursor-pointer">
+                   Enviar mensagem 
+                   <ExternalLink size={12}/>
+
+                </button>
               </TabsContent>
             </Tabs>
           </div>

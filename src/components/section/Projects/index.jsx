@@ -5,9 +5,8 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-      <section className="w-full flex flex-col gap-8  justify-center  items-center">
-    
-        <h1 className='text-5xl'>Projetos</h1>
+      <section className="w-full flex flex-col gap-8 py-12 justify-center  items-center">
+  
 
         <div className="flex flex-wrap w-screen md:w-[80vw] gap-8 justify-center  relative z-10">
 

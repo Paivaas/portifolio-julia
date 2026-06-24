@@ -4,9 +4,13 @@ import { WordRotate } from "@/components/ui/word-rotate"
 
 export default function AboutMe() {
   const { t } = useTranslation();
+
+
+
   return (
-   <section className="w-full flex flex-col px-54 md:flex-row justify-center items-center gap-8 md:gap-12">
+   <section className="w-full flex flex-col px-84 pt-12 md:flex-row justify-center items-center gap-8 md:gap-12">
       <div className="relative w-64 h-64 md:w-95 md:h-75 shrink-0">
+        
         <Image src="/foto-cam.svg" alt="Foto de perfil" fill className="object-fit rotate-[-10deg]" />
       </div>
 
