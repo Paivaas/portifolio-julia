@@ -7,13 +7,17 @@ import CursorSparkles from "@/components/ui/CursorSparkles"
 
 export default function Contact() {
 
-    
-function sendWhatsAppMessage() {
-  const phone = "5511970167820";
-  const message = "Oi, Julia! Vim através do seu portifólio.";
-  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
-  window.open(url, "_blank");
-}
+  function sendWhatsAppMessage() {
+    const phone = "5511970167820";
+    const message = "Oi, Julia! Vim através do seu portifólio.";
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  }
+
+  function soundOpenTabs() {
+    const audio = new Audio('/sounds/sound-blop.mp3');
+    audio.play();
+  } 
   const { t } = useTranslation();
   return (
     <CursorSparkles>
@@ -23,9 +27,9 @@ function sendWhatsAppMessage() {
           <div>
              <Tabs defaultValue="email" className="w-full h-full flex flex-col justify-center items-center">
               <TabsList variant="line">
-                <TabsTrigger value="email">Email</TabsTrigger>
-                <TabsTrigger value="linkedin">Linkedin</TabsTrigger>
-                <TabsTrigger value="telefone">Telefone</TabsTrigger>
+                <TabsTrigger value="email" onClick={soundOpenTabs}>Email</TabsTrigger>
+                <TabsTrigger value="linkedin" onClick={soundOpenTabs}>Linkedin</TabsTrigger>
+                <TabsTrigger value="telefone" onClick={soundOpenTabs}>Telefone</TabsTrigger>
               </TabsList>
 
               <TabsContent value="email">

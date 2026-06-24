@@ -4,9 +4,6 @@ import { WordRotate } from "@/components/ui/word-rotate"
 
 export default function AboutMe() {
   const { t } = useTranslation();
-
-
-
   return (
    <section className="w-full flex flex-col px-84 pt-12 md:flex-row justify-center items-center gap-8 md:gap-12">
       <div className="relative w-64 h-64 md:w-95 md:h-75 shrink-0">
@@ -20,7 +17,7 @@ export default function AboutMe() {
         className="text-sm  text-black dark:text-white"
         words={["Experiencia em Cybersecurity", "Desenvolvedora Front-end" , "Formada em Gestão de TI" , "Estudante de Marketing"]}
       />
-      <p className='text-sm text-justify' >{t('about-me.content')}</p>
+      <p className='text-sm text-justify w-112.5' >{t('about-me.content')}</p>
     </div>
     
   </section>

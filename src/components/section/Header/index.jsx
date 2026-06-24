@@ -9,12 +9,13 @@ import CursorSparkles from "@/components/ui/CursorSparkles"
 
 export default function Menu() {
   const { t } = useTranslation();
+
   return (
 
     <CursorSparkles className='flex flex-col justify-center items-center'>
       <section className="w-full h-[60vh]">
 
-        <div className="absolute inset-0 z-10 flex flex-col h-full justify-between pb-24 items-center">
+        <div  className="absolute inset-0 z-10 flex flex-col h-full justify-between pb-24 items-center">
             
             <menu className="w-full flex justify-evenly p-4 text-xs">
                   <p>2026</p>
@@ -23,7 +24,7 @@ export default function Menu() {
             </menu>
           
             <div className='flex flex-col items-end'>
-              <TypingAnimation startOnView className='font-semibold text-5xl md:text-9xl' >
+              <TypingAnimation  startOnView className='font-semibold text-5xl md:text-9xl' >
                 {t('header.title')}
               </TypingAnimation>
               <p className='text-zinc-700'>{t('commun.area')}</p>
@@ -32,6 +33,6 @@ export default function Menu() {
             </div>
           </div>
       </section>
-      <ChevronDown />
+      <ChevronDown  />
     </CursorSparkles>
   )}

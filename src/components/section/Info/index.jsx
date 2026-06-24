@@ -17,7 +17,11 @@ export default function Info() {
   const { t } = useTranslation();
 
   
-   function soundCam() {
+  function soundOpenTabs() {
+    const audio = new Audio('/sounds/sound-blop.mp3');
+    audio.play();
+  } 
+  function soundOpenTabsCam() {
     const audio = new Audio('/sounds/sound-cam.mp3');
     audio.play();
   } 
@@ -27,9 +31,9 @@ export default function Info() {
 
       <Tabs defaultValue="account" className=" items-center ">
         <TabsList className="bg-white flex gap-12">
-          <TabsTrigger onClick={soundCam} value="aboutme">Sobre mim </TabsTrigger>
-          <TabsTrigger value="projects">Projetos</TabsTrigger>
-          <TabsTrigger value="tools">Ferramentas</TabsTrigger>
+          <TabsTrigger  value="aboutme" onClick={soundOpenTabs}>Sobre mim </TabsTrigger>
+          <TabsTrigger value="projects" onClick={soundOpenTabs}>Projetos</TabsTrigger>
+          <TabsTrigger value="tools" onClick={soundOpenTabs}>Ferramentas</TabsTrigger>
         </TabsList>
         <TabsContent value="aboutme"> <AboutMe />  </TabsContent>
         <TabsContent value="projects"> <Projects /> </TabsContent>
