@@ -19,22 +19,26 @@ export default function ExperienceTimeline() {
   const { t } = useTranslation();
 
   return (
-    <section className="flex flex-col gap-6 w-full justify-center items-center">
-
-      <div className="grid gap-x-4 grid-cols-[24px_290px] md:grid-cols-[24px_350px] text-xs">
-        <div></div>
+    <div className="grid gap-x-4 grid-cols-[290px_24px_290px] md:grid-cols-[290px_24px_350px] text-xs text-end">
+      
         <p>{t("line-up.3.data")}</p>
-        <p className="bg-[#DE5CA2] text-white w-6 h-6 rounded-full flex justify-center items-center"> 3</p>
+        <div />     
+        <div />
+
+        
         <h1 className="font-semibold text-sm"> {t("line-up.3.title")} </h1>
-        <div className="flex justify-center items-center"> <span className="w-1 h-full mt-10 bg-zinc-300 rounded-2xl"></span> </div>
+        <p className="bg-[#DE5CA2] text-white w-6 h-6 rounded-full flex justify-center items-center"> 3</p>
+        <div />
+
         <div>
           <span className="text-zinc-500"> {t("line-up.3.location")}  </span>
-          <p>{t("line-up.3.description")}</p>
-
-          <Collapsible
+          <p></p>
+        </div>
+        <div className="flex justify-center items-center"> <span className="w-1 h-full mt-10 bg-zinc-300 rounded-2xl"></span> </div>
+           <Collapsible
             open={isOpen}
             onOpenChange={setIsOpen}
-            className="mt-4"
+            className="mt-4 relative bottom-9"
           >
             <CollapsibleTrigger className="flex items-center gap-2 text-[#DE5CA2] font-medium">
                {t("line-up.commun.assignments")}
@@ -58,9 +62,7 @@ export default function ExperienceTimeline() {
                </div>
             </CollapsibleContent>
           </Collapsible>
-        </div>
-      </div>
 
-    </section>
+      </div>
   );
 }

@@ -11,24 +11,27 @@ import Tools from '@/components/section/Tools';
 
 import { Pointer } from '@/components/ui/pointer';
 import Reveal from '@/components/ui/Reveal';
+import CursorSparkles from '@/components/ui/CursorSparkles';
 
 export default function Home() {
   return (
-    <div className="flex flex-col style={{ fontFamily: 'var(--font-poppins)' }}">
-      <Pointer />
+    <CursorSparkles>
+      <div className="flex flex-col style={{ fontFamily: 'var(--font-poppins)' }}">
+        <Pointer />
 
-      <div className="flex flex-col gap-24">
-        <Header />
-        <Reveal>
-          <LineUp />
-        </Reveal>
-        <Reveal>
-          <Projects />
-        </Reveal>
-        <Reveal>
-          <Contact />
-        </Reveal>
+        <div className="flex flex-col gap-24">
+          <Header />
+          <Reveal>
+            <LineUp />
+          </Reveal>
+          <Reveal>
+            <Projects />
+          </Reveal>
+          <Reveal>
+            <Contact />
+          </Reveal>
+        </div>
       </div>
-    </div>
+    </CursorSparkles>
   );
 }
