@@ -6,6 +6,8 @@ export default function LanguageSelector() {
   const { i18n } = useTranslation()
 
   const toggleLanguage = () => {
+    const audio = new Audio('/sounds/sound-blop.mp3');
+    audio.play();
     const newLanguage = i18n.language.startsWith('pt') ? 'en' : 'pt'
     i18n.changeLanguage(newLanguage)
   }

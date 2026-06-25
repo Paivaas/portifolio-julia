@@ -1,11 +1,13 @@
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Copy  } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { toast } from "sonner"
 
 import CursorSparkles from "@/components/ui/CursorSparkles"
 
 export default function Contact() {
+  const { t } = useTranslation();
 
   function sendWhatsAppMessage() {
     const phone = "5511970167820";
@@ -14,11 +16,25 @@ export default function Contact() {
     window.open(url, "_blank");
   }
 
+  function copyEmail() {
+    const email = "contatojupaioliver12@gmail.com";
+
+    navigator.clipboard.writeText(email).then(() => {
+       const audio = new Audio('/sounds/sound-bubble.mp3');
+    audio.play();
+      toast.success("Email copiado!", {
+      description: "O conteúdo foi enviado para sua área de transferência.",
+    })
+    });
+  }
+
   function soundOpenTabs() {
     const audio = new Audio('/sounds/sound-blop.mp3');
     audio.play();
-  } 
-  const { t } = useTranslation();
+  }
+
+
+
   return (
     <CursorSparkles>
     
@@ -33,7 +49,10 @@ export default function Contact() {
               </TabsList>
 
               <TabsContent value="email">
-                contatojupaioliver12@gmail.com
+                 <button onClick={copyEmail} className="flex items-center gap-1 cursor-pointer">
+                  contatojupaioliver12@gmail.com
+                  <Copy  size={12}/>
+                </button>
               </TabsContent>
 
               <TabsContent 
@@ -51,8 +70,7 @@ export default function Contact() {
               <TabsContent value="telefone">
                 <button onClick={sendWhatsAppMessage} className="flex items-center gap-1 cursor-pointer">
                    Enviar mensagem 
-                   <ExternalLink size={12}/>
-
+                  <ExternalLink size={12}/>
                 </button>
               </TabsContent>
             </Tabs>
@@ -63,4 +81,6 @@ export default function Contact() {
   
   </CursorSparkles>
 
-  )}
+  )
+
+}

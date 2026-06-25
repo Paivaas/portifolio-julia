@@ -15,7 +15,7 @@ export default function ExperienceTimeline() {
   return (
 <section className="flex gap-16 md:gap-24 w-full justify-center items-center px-6 flex-col ">
 
-       <h1 className="text-4xl font-semibold" >Minha trajetória</h1>
+       <h1 className="text-4xl" >Formação & Experiência</h1>
       <div className="flex flex-col  h-full items-start md:items-start gap-4 md:gap-8 justify-end ">
         
         <Reveal><Experience1></Experience1></Reveal>

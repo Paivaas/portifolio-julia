@@ -4,7 +4,7 @@ export default function Experience1() {
   const { t } = useTranslation();
 
   return (
-    <div className="grid gap-x-4 grid-cols-[290px_24px_290px] md:grid-cols-[290px_24px_350px] text-xs hover:scale-105">
+    <div className="grid gap-x-4 grid-cols-[290px_24px_290px] md:grid-cols-[290px_24px_350px] text-xs transition-transform duration-300 ease-in-out hover:scale-105">
         <div />     
         <div />
         <p>{t("line-up.2.data")}</p>
