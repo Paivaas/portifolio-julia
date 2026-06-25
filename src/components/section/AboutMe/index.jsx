@@ -25,7 +25,7 @@ export default function AboutMe() {
       </div>
 
       <div className="flex flex-col gap-4 text-center md:text-left">
-        <h2 className="text-5xl">{t('about-me.title')}</h2>
+        {/* <h2 className="text-5xl">{t('about-me.title')}</h2> */}
 
         <WordRotate duration={3800} className="text-sm text-black dark:text-white" words={["Experiencia em Cybersecurity","Desenvolvedora Front-end","Formada em Gestão de TI","Estudante de Marketing"]}/>
 

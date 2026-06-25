@@ -31,7 +31,7 @@ export default function Info() {
     <div className="flex justify-center items-center gap-12 ">
 
       <Tabs defaultValue="aboutme" className=" items-center ">
-        <TabsList className="bg-white flex gap-12 ">
+        <TabsList variant="line" className="bg-white flex gap-12 ">
           <TabsTrigger  value="aboutme" onClick={soundOpenTabs}>Sobre mim </TabsTrigger>
           <TabsTrigger value="projects" onClick={soundOpenTabs}>Projetos</TabsTrigger>
           <TabsTrigger value="tools" onClick={soundOpenTabs}>Ferramentas</TabsTrigger>
