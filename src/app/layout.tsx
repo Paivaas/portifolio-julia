@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${kapakana.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${kapakana.variable} text-[#2B2B2B] antialiased`}
       >
         {children}
         <Toaster />

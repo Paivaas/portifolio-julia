@@ -15,7 +15,7 @@ export default function Menu() {
       <section className="w-full h-100 flex flex-col justify-between pb-24 items-center">
 
      
-            <menu className="flex gap-54 p-4 text-xs">
+            <menu className="flex gap-70 p-4 text-xs">
                   <p>2026</p>
                   <p className='text-sm font-semibold'>Bem vindo(a) ao meu:</p>
                   <LanguageSelector />

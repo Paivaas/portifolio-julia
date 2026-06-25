@@ -4,10 +4,6 @@ import Experience3 from "@/components/section/LineUp/Experience/3"
 import Experience4 from "@/components/section/LineUp/Experience/4"
 import Reveal from '@/components/ui/Reveal';
 import { useTranslation } from 'react-i18next'
-import { WordRotate } from "@/components/ui/word-rotate"
-import Image from "next/image";
-import { Highlighter } from "@/components/ui/highlighter";
-import { motion } from "framer-motion";
 
 export default function ExperienceTimeline() {
   const { t } = useTranslation();
