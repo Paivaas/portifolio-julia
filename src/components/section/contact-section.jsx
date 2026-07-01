@@ -4,11 +4,12 @@ import { ExternalLink, Copy  } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { toast } from "sonner"
 
+
 import CursorSparkles from "@/components/ui/CursorSparkles"
 
 export default function Contact() {
   const { t } = useTranslation();
-
+  
   function sendWhatsAppMessage() {
     const phone = "5511970167820";
     const message = "Oi, Julia! Vim através do seu portifólio.";

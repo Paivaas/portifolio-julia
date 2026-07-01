@@ -1,7 +1,7 @@
-import Experience1 from "@/components/section/LineUp/Experience/1"
-import Experience2 from "@/components/section/LineUp/Experience/2"
-import Experience3 from "@/components/section/LineUp/Experience/3"
-import Experience4 from "@/components/section/LineUp/Experience/4"
+import Experience1 from "@/components/section/lineup-experience/1"
+import Experience2 from "@/components/section/lineup-experience/2"
+import Experience3 from "@/components/section/lineup-experience/3"
+import Experience4 from "@/components/section/lineup-experience/4"
 import Reveal from '@/components/ui/Reveal';
 import { useTranslation } from 'react-i18next'
 

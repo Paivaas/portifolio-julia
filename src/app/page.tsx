@@ -2,10 +2,10 @@
 
 import '@/i18n/settings';
 
-import LineUp from '@/components/section/LineUp';
-import Contact from '@/components/section/Contact';
-import Header from '@/components/section/Header';
-import Info from '@/components/section/Info';
+import LineUp from '@/components/section/lineup-section';
+import Contact from '@/components/section/contact-section';
+import Header from '@/components/section/header-section';
+import Info from '@/components/section/info-section';
 
 import { Pointer } from '@/components/ui/pointer';
 import Reveal from '@/components/ui/Reveal';
