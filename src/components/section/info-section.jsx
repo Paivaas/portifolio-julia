@@ -26,11 +26,13 @@ export default function Info() {
 
       <Tabs defaultValue="aboutme" className=" items-center ">
         <TabsList variant="line" className="bg-white flex gap-12 ">
-          <TabsTrigger  value="aboutme" onClick={soundOpenTabs}>Sobre mim </TabsTrigger>
-          <TabsTrigger value="tools" onClick={soundOpenTabs}>Ferramentas</TabsTrigger>
+          <TabsTrigger  value="aboutme">Sobre mim </TabsTrigger>
+          <TabsTrigger value="tools">Ferramentas</TabsTrigger>
+          <TabsTrigger value="projects">Projetos</TabsTrigger>
         </TabsList>
         <TabsContent value="aboutme"> <Reveal>  <AboutMe />  </Reveal>  </TabsContent>
         <TabsContent value="tools"><Reveal>  <Tools />  </Reveal> </TabsContent>
+        <TabsContent value="projects"><Reveal>  <Projects />  </Reveal> </TabsContent>
       </Tabs>
 
     </div>

@@ -4,7 +4,8 @@ import { useState } from "react";
 import { WordRotate } from "@/components/ui/word-rotate";
 import { Highlighter } from "@/components/ui/highlighter";
 import { Button } from "@/components/ui/button"
-
+import { Badge } from "@/components/ui/badge"
+import { BadgeCheck, BookmarkIcon } from "lucide-react"
 
 function HoverHighlighter({ children, action, color }) {
   const [active, setActive] = useState(false);
@@ -44,6 +45,11 @@ export default function AboutMe() {
 
         <WordRotate duration={3800} className="text-sm text-black dark:text-white" words={["Experiencia em Cybersecurity","Desenvolvedora Front-end","Formada em Gestão de TI","Estudante de Marketing"]}/>
 
+
+        <Badge variant="secondary">
+        + 2 anos em TI
+        <BadgeCheck data-icon="inline-start"  />
+      </Badge>
         <p className="text-sm text-justify w-112.5 leading-loose">
           Me chamo Julia Paiva, tenho{" "}
           <HoverHighlighter action="highlight" color="#FFE7F4">19 anos e sou de São Paulo.</HoverHighlighter>{" "}
@@ -56,6 +62,8 @@ export default function AboutMe() {
           <HoverHighlighter action="highlight" color="#FFE7F4">Atualmente eu curso marketing</HoverHighlighter>{" "}
           para complementar meu perfil com uma visão mais estratégica, voltada para comunicação.
         </p>
+
+        
       </div>
     </section>
   );
