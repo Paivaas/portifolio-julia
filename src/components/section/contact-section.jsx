@@ -11,7 +11,7 @@ export default function Contact() {
   
   function sendWhatsAppMessage() {
     const phone = "5511970167820";
-    const message = "Oi, Julia! Vim através do seu portifólio.";
+    const message = t("contact.whatsapp-message");
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   }
@@ -22,9 +22,9 @@ export default function Contact() {
     navigator.clipboard.writeText(email).then(() => {
        const audio = new Audio('/sounds/sound-bubble.mp3');
     audio.play();
-      toast.success("Email copiado!", {
-      description: "O conteúdo foi enviado para sua área de transferência.",
-    })
+      toast.success(t("contact.copy-email.title"), {
+      description: t("contact.copy-email.description"),
+    });
     });
   }
 

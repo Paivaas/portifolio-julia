@@ -30,6 +30,22 @@
     "2": "Tools",
     "3": "Projects"
   },
+  "projects": {
+    "about": "About",
+    "view-project": "View Project",
+    "1": {
+      "year": "2026",
+      "title": "Meal Prep Manager",
+      "tags": {
+        "1": "Web Development",
+        "2": "React",
+        "3": "TypeScript",
+        "4": "Global State Management",
+        "5": "shadcn/ui Components",
+        "6": "Responsive Design"
+      }
+    }
+  },
   "line-up": {
     "commun": {
       "category": "Education & Experience",
@@ -43,7 +59,7 @@
     },
     "2": {
       "data": "2025-2026",
-      "title": "Bachelor's Degree - Information Technology Management",
+      "title": "Education - Information Technology Management",
       "location": "Paulista University",
       "description": "Degree focused on technology resource management, information systems, and IT project management within organizations."
     },
@@ -86,6 +102,11 @@
     "category": "Contact",
     "view-linkedin": "View Profile",
     "send-message": "Send Message",
-    "footer": "Julia Paiva | Frontend Developer © 2026 All Rights Reserved."
+    "footer": "Julia Paiva | Frontend Developer © 2026 All Rights Reserved.",
+    "copy-email": {
+      "title": "Email copied!",
+      "description": "The email has been copied to your clipboard."
+    },
+    "whatsapp-message": "Hi, Julia! I found you through your portfolio."
   }
 }

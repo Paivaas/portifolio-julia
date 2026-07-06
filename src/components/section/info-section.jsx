@@ -1,8 +1,5 @@
 "use client"
 import { useTranslation } from 'react-i18next';
-
-import { OrbitingCircles } from "@/components/ui/orbiting-circles"
-import Image from "next/image";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
