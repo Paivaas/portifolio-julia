@@ -16,20 +16,19 @@ export default function Menu() {
 
      
             <menu className="flex gap-70 p-4 text-xs">
-                  <p>2026</p>
-                  <p className='text-sm font-semibold'>Bem vindo(a) ao meu:</p>
+                  <p>{t('portfolio.year')}</p>
+                  <p className='text-sm font-semibold'>{t('portfolio.subtitle')}</p>
                   <LanguageSelector />
             </menu>
           
             <div className='flex flex-col items-end'>
               <TypingAnimation  startOnView className='font-semibold text-5xl md:text-9xl' >
-                
-                {t('header.title')}
+                {t('portfolio.title')}
               </TypingAnimation>
               <p className='text-zinc-700'></p>
-              <AuroraText colors={["#DE9FC1", "#AF5AAE", "#FF60B6"]} >{t('commun.area')}</AuroraText>
+              <AuroraText colors={["#DE9FC1", "#AF5AAE", "#FF60B6"]} >{t('portfolio.area')}</AuroraText>
                
-              <h2>Julia Paiva de Oliveira</h2>
+              <h2> {t('profile.name')}</h2>
              
           </div>
       </section>

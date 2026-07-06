@@ -15,7 +15,7 @@ import Reveal from '@/components/ui/Reveal';
 export default function Info() {
   const { t } = useTranslation();
 
-  
+
   function soundOpenTabs() {
     const audio = new Audio('/sounds/sound-blop.mp3');
     audio.play();
@@ -26,9 +26,9 @@ export default function Info() {
 
       <Tabs defaultValue="aboutme" className=" items-center ">
         <TabsList variant="line" className="bg-white flex gap-12 ">
-          <TabsTrigger  value="aboutme">Sobre mim </TabsTrigger>
-          <TabsTrigger value="tools">Ferramentas</TabsTrigger>
-          <TabsTrigger value="projects">Projetos</TabsTrigger>
+          <TabsTrigger  value="aboutme"> {t('categories.1')} </TabsTrigger>
+          <TabsTrigger value="tools">{t('categories.2')}</TabsTrigger>
+          <TabsTrigger value="projects">{t('categories.3')}</TabsTrigger>
         </TabsList>
         <TabsContent value="aboutme"> <Reveal>  <AboutMe />  </Reveal>  </TabsContent>
         <TabsContent value="tools"><Reveal>  <Tools />  </Reveal> </TabsContent>

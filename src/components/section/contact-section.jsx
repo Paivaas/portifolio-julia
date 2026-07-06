@@ -4,7 +4,6 @@ import { ExternalLink, Copy  } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { toast } from "sonner"
 
-
 import CursorSparkles from "@/components/ui/CursorSparkles"
 
 export default function Contact() {
@@ -34,13 +33,11 @@ export default function Contact() {
     audio.play();
   }
 
-
-
   return (
     <CursorSparkles>
     
       <section className="w-full flex flex-col gap-4 items-center ">
-          <h1 className='text-7xl' style={{ fontFamily: "var(--font-kapakana)" }}>Contato</h1>
+          <h1 className='text-7xl' style={{ fontFamily: "var(--font-kapakana)" }}> {t('contact.category')}</h1>
           <div>
              <Tabs defaultValue="email" className="w-full h-full flex flex-col justify-center items-center">
               <TabsList variant="line">
@@ -65,19 +62,19 @@ export default function Contact() {
                   className="hover:text-zinc-600" 
                   href="https://www.linkedin.com/in/juliapaivadeoliveira/"
                 >
-                  Ver perfil
+                 {t('contact.view-linkedin')}
                 </a>
               </TabsContent>
               <TabsContent value="telefone">
                 <button onClick={sendWhatsAppMessage} className="flex items-center gap-1 cursor-pointer">
-                   Enviar mensagem 
+                    {t('contact.send-message')}
                   <ExternalLink size={12}/>
                 </button>
               </TabsContent>
             </Tabs>
           </div>
           
-        <p className="text-zinc-200 pt-12"> Julia Paiva | Frontend Developer © 2026  Todos os direitos reservados.</p>
+        <p className="text-zinc-200 pt-12"> {t('contact.footer')}</p>
       </section>
   
   </CursorSparkles>

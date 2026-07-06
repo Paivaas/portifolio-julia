@@ -47,20 +47,20 @@ export default function AboutMe() {
 
 
         <Badge variant="secondary">
-        + 2 anos em TI
+        {t('about.experience')}
         <BadgeCheck data-icon="inline-start"  />
       </Badge>
         <p className="text-sm text-justify w-112.5 leading-loose">
-          Me chamo Julia Paiva, tenho{" "}
-          <HoverHighlighter action="highlight" color="#FFE7F4">19 anos e sou de São Paulo.</HoverHighlighter>{" "}
-          Iniciei meus estudos na área da tecnologia aos 16 anos com o curso técnico em{" "}
-          <HoverHighlighter action="underline" color="#D472A7">Desenvolvimento de Sistemas</HoverHighlighter>{" "}
-          e dei sequência quando optei por cursar{" "}
-          <HoverHighlighter action="underline" color="#D472A7">Gestão da Tecnologia da Informação.</HoverHighlighter>{" "}
-          Apesar de ter uma boa base e experiências práticas na área analítica,{" "}
-          <HoverHighlighter action="" color="#FF9800">meu perfil é extremamente comunicativo e, acima de tudo, criativo.</HoverHighlighter>{" "}
-          <HoverHighlighter action="highlight" color="#FFE7F4">Atualmente eu curso marketing</HoverHighlighter>{" "}
-          para complementar meu perfil com uma visão mais estratégica, voltada para comunicação.
+          {t('about.text.1')}
+          <HoverHighlighter action="highlight" color="#FFE7F4">{t('about.text.2')}</HoverHighlighter>
+          {t('about.text.3')}
+          <HoverHighlighter action="underline" color="#D472A7">{t('about.text.4')}</HoverHighlighter>
+          {t('about.text.5')}
+          <HoverHighlighter action="underline" color="#D472A7">{t('about.text.6')}</HoverHighlighter>
+          {t('about.text.7')}
+          <HoverHighlighter action="" color="#FF9800">{t('about.text.8')}</HoverHighlighter>
+          <HoverHighlighter action="highlight" color="#FFE7F4">{t('about.text.9')}</HoverHighlighter>
+          {t('about.text.10')}
         </p>
 
         

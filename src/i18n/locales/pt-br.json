@@ -1,44 +1,61 @@
 {
-  "commun": {
-    "loren-frase": "Lorem Ipsum é simplesmente uma simulação de texto ",
-    "area": "Tecnologia | Comunicação",
-    "contact": "Fale comigo!"
+  "portfolio": {
+    "year": 2026,
+    "language": "pt-BR",
+    "title": "Portfólio",
+    "subtitle": "Bem-vindo(a) ao meu perfil",
+    "area": "Tecnologia | Comunicação"
   },
-  "header": {
-    "welcome": "Bem vindo(a) a meu:",
-    "title": "Portifólio.",
-    "name": "Julia Paiva"
+  "profile": {
+    "name": "Julia Paiva de Oliveira",
+    "role": "Desenvolvedora Front-end"
   },
-  "about-me": {
-    "title": "Sobre mim:",
-    "description": "Técnica em Desenvolvimento de Sistemas com interresse no desenvolvimento front-end cursando Gestão da tecnologia da informação",
-    "content": "Me chamo Julia Paiva, tenho 19 anos e sou de São Paulo. Iniciei meus estudos na área da tecnologia aos 16 anos com o curso técnico em Desenvolvimento de Sistemas e dei sequência quando optei por cursar Gestão da Tecnologia da Informação. Apesar de ter uma boa base e experiências práticas na área analítica, meu perfil é extremamente comunicativo e, acima de tudo, criativo. Atualmente eu curso marketing para complementar meu perfil criativo com uma visão mais estratégica, voltada para comunicação."
+  "about": {
+    "experience": "+2 anos em TI",
+    "text": {
+      "1": "Me chamo Julia Paiva, tenho ",
+      "2": "19 anos e sou de São Paulo.",
+      "3": " Iniciei meus estudos na área da tecnologia aos 16 anos com o curso técnico em ",
+      "4": "Desenvolvimento de Sistemas",
+      "5": " e dei sequência quando optei por cursar ",
+      "6": "Gestão da Tecnologia da Informação.",
+      "7": " Apesar de ter uma boa base e experiências práticas na área analítica, ",
+      "8": "meu perfil é extremamente comunicativo e, acima de tudo, criativo.",
+      "9": " Atualmente curso Marketing ",
+      "10": "para complementar meu perfil com uma visão mais estratégica, voltada para comunicação."
+    }
+  },
+  "categories": {
+    "1": "Sobre mim",
+    "2": "Ferramentas",
+    "3": "Projetos"
   },
   "line-up": {
     "commun": {
+      "category": "Formação & Experiência",
       "assignments": "Principais atribuições"
     },
     "1": {
       "data": "2023-2024",
-      "title": "Técnico - Desenvolviemento de Sistemas",
+      "title": "Curso Técnico - Desenvolvimento de Sistemas",
       "location": "SENAI",
-      "description": "Formação com foco em lógica de programação, desenvolvimento de sistemas e fundamentos de tecnologia voltados ao mercado de trabalho."
+      "description": "Formação técnica com foco em lógica de programação, desenvolvimento de software e fundamentos de tecnologia voltados ao mercado de trabalho."
     },
     "2": {
       "data": "2025-2026",
-      "title": "Formação - Gestão da Tecnologia da Informação",
+      "title": "Graduação - Gestão da Tecnologia da Informação",
       "location": "Universidade Paulista",
-      "description": "Formação focada na gestão de recursos tecnológicos, sistemas de informação e projetos de TI nas organizações."
+      "description": "Graduação focada na gestão de recursos tecnológicos, sistemas de informação e projetos de TI nas organizações."
     },
     "3": {
       "data": "2025-2026",
       "title": "Aprendiz em Cybersecurity",
       "location": "Keeggo",
-      "description": "Atuação como aprendiz na área de cibersegurança, com foco em privacidade e proteção de dados, análise de vulnerabilidades e boas práticas de segurança da informação.",
+      "description": "Atuação como aprendiz na área de Cibersegurança, com foco em privacidade e proteção de dados, análise de vulnerabilidades e boas práticas de segurança da informação.",
       "more": {
-        "words": "ISO/ 27001 - LGPD - Pentest",
+        "words": "ISO 27001 - LGPD - Pentest",
         "1": {
-          "title": "Segurança ofensiva",
+          "title": "Segurança Ofensiva",
           "description": "Atuação na migração e implantação da plataforma Privacy Tools, apoiando empresas como Banco do Nordeste, Sura e Yamaha na gestão de riscos, atividades de privacidade e adequação à LGPD."
         },
         "2": {
@@ -49,20 +66,26 @@
     },
     "4": {
       "data": "2026-Atual",
-      "title": "Desenvolvedora Frontend Jr",
+      "title": "Desenvolvedora Front-end Júnior",
       "location": "Visual Mix",
-      "description": "Experiência profissional no desenvolvimento de interfaces web modernas, responsivas e centradas na experiência do usuário no mercado de varejo.",
+      "description": "Experiência profissional no desenvolvimento de interfaces web modernas e responsivas, com forte foco na experiência do usuário para o setor varejista.",
       "more": {
-        "words": "GIT - Next.js - Tailwind - Node.js",
+        "words": "Git - Next.js - Tailwind CSS - Node.js",
         "1": {
-          "title": "User Experience Desing ",
-          "description": "Foco na experiência do usuario para construção de interfaces digitais atraves da análise de jornadas, organização de fluxos e estruturação de layouts."
+          "title": "Design de Experiência do Usuário",
+          "description": "Foco na criação de interfaces digitais intuitivas por meio da análise da jornada do usuário, organização de fluxos e estruturação de layouts."
         },
         "2": {
-          "title": "Desenvolvimento web",
-          "description": "Desenvolvimento de aplicações e interfaces para a web utilizando tecnologias modernas, com foco em desempenho, responsividade, usabilidade e boas práticas de programação, garantindo soluções funcionais e eficientes."
+          "title": "Desenvolvimento Web",
+          "description": "Desenvolvimento de aplicações e interfaces web utilizando tecnologias modernas, com foco em desempenho, responsividade, usabilidade e boas práticas de programação, garantindo soluções funcionais e eficientes."
         }
       }
     }
+  },
+  "contact": {
+    "category": "Contato",
+    "view-linkedin": "Ver perfil",
+    "send-message": "Enviar mensagem",
+    "footer": "Julia Paiva | Desenvolvedora Front-end © 2026 Todos os direitos reservados."
   }
 }

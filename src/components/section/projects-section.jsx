@@ -49,7 +49,7 @@ export default function Projects() {
             </div>
 
             <div className="flex flex-wrap gap-2">
-              <Badge className="bg-zinc-50 text-zinc-700">  Desenvolvimento Web </Badge>
+              <Badge className="bg-zinc-50 text-zinc-700">  Desenvolvimento Web </Badge> ∙
               <Badge className="bg-blue-50 text-blue-700">  React </Badge>
               <Badge className="bg-cyan-50 text-cyan-700">  Typescript </Badge>
               <Badge className="bg-orange-50 text-orange-700">  Gerenciamento global </Badge>
