@@ -2,18 +2,17 @@
 import { useTranslation } from 'react-i18next';
 
 import Image from "next/image";
-import { ExternalLink, Info   } from 'lucide-react';
+import { ExternalLink   } from 'lucide-react';
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
+import {Sheet1} from "@/components/section/projects-itens/sheet1"
 
 export default function Projects() {
   const { t } = useTranslation();
   return (
       <section className="w-full flex flex-col gap-8 py-12 justify-center  items-center">
   
-
         <div className="flex flex-wrap w-screen md:w-[80vw] gap-8 justify-center  relative z-10">
-
 
           {Array.from({ length: 2 }).map((_, index) => (
             <div key={index} className="w-75 space-y-2">
@@ -42,7 +41,7 @@ export default function Projects() {
             <h1 className="text-sm font-semibold">{t('projects.1.title')}</h1>
 
             <div className="flex gap-4 text-zinc-400 pt-4">
-                <button className="flex items-center gap-1">{t('projects.about')} <Info  size={12}/></button>
+                <button className="flex items-center gap-1"> < Sheet1 /> </button>
                <button className="flex items-center gap-1"><a href="https://gerenciador-marmitas.vercel.app/">{t('projects.view-project')}</a> <ExternalLink size={12}/></button>
             </div>
 

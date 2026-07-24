@@ -14,7 +14,7 @@ import CursorSparkles from '@/components/ui/CursorSparkles';
 export default function Home() {
   return (
     <CursorSparkles>
-      <div className="flex flex-col style={{ fontFamily: 'var(--fontx-poppins)' }}">
+      <div className="flex flex-col style={{ fontFamily: 'var(--fontx-poppins)' }} no-scrollbar">
         <Pointer />
         <div className="flex flex-col gap-24">
           <Header />

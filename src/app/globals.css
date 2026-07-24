@@ -174,3 +174,38 @@ html {
 body {
   font-family: var(--font-geist-sans);
 }
+.scroll-like-shadcn {
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.45) transparent;
+}
+
+.scroll-like-shadcn::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll-like-shadcn::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scroll-like-shadcn::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 9999px;
+}
+.scroll-like-shadcn::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.scroll-like-shadcn::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE e Edge antigos */
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari e Edge */
+}
