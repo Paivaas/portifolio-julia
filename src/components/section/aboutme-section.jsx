@@ -30,7 +30,7 @@ export default function AboutMe() {
     setClicado((prev) => !prev);
   }
 
-  const Img = clicado ? "./foto-cam3.svg" : "./foto-cam.svg";
+  const Img = clicado ? "./foto-cam.svg" : "./foto-cam3.svg";
 
 
   return (
