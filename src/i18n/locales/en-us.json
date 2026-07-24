@@ -13,7 +13,10 @@
   "about": {
     "experience": "2+ Years in IT",
     "text": {
-      "1": "My name is Julia Paiva, I am ",
+      "0": "I started my journey in technology at the age of 16 through a Technical Program in Systems Development, and I am currently pursuing a Bachelor's degree in Information Technology Management. I have experience in Front-end Development and Cybersecurity, working with React, Next.js, TypeScript, and Tailwind CSS.",
+      "1": "I am a communicative, creative, and technology-driven person, passionate about sharing knowledge, continuously learning, and turning ideas into practical solutions.",
+
+      "11": "My name is Julia Paiva, I am ",
       "2": "19 years old and I am from São Paulo, Brazil.",
       "3": " I started studying technology at the age of 16 through a technical course in ",
       "4": "Systems Development",
