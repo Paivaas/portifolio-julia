@@ -2,12 +2,12 @@
   "portfolio": {
     "year": 2026,
     "language": "en",
-    "title": "Portfolio",
+    "title": "Julia Paiva",
     "subtitle": "Welcome to my profile",
     "area": "Technology | Communication"
   },
   "profile": {
-    "name": "Julia Paiva de Oliveira",
+    "name": "Digital Resume",
     "role": "Frontend Developer"
   },
   "about": {
@@ -71,11 +71,11 @@
       "more": {
         "words": "ISO 27001 - LGPD - Pentesting",
         "1": {
-          "title": "Offensive Security",
+          "title": "Governance & Privacy",
           "description": "Participated in the migration and implementation of the Privacy Tools platform, supporting companies such as Banco do Nordeste, Sura, and Yamaha in risk management, privacy operations, and LGPD compliance."
         },
         "2": {
-          "title": "Governance & Privacy",
+          "title": "Offensive Security",
           "description": "Participated in the planning, execution, and analysis of internal phishing campaigns, helping raise user awareness and strengthen the organization's security culture. Also supported Red Team activities by assisting with external vulnerability assessments, risk analysis, and security testing at Sompo Seguros."
         }
       }

@@ -7,21 +7,28 @@
     "area": "Tecnologia | Comunicação"
   },
   "profile": {
-    "name": "portifolip",
+    "name": "Currículo online",
     "role": "Desenvolvedora Front-end"
   },
   "about": {
-    "experience": "+2 anos em TI",
+    "badge1": "2 anos trabalhando com TI",
+    "badge2": "+4 anos estudando TI",
+
+    "title": "Olá, eu sou a Julia 👋",
     "text": {
-      "1": "Me chamo Julia Paiva, tenho ",
-      "2": "19 anos e sou de São Paulo.",
-      "3": " Iniciei meus estudos na área da tecnologia aos 16 anos com o curso técnico em ",
-      "4": "Desenvolvimento de Sistemas",
-      "5": " e dei sequência quando optei por cursar ",
-      "6": "Gestão da Tecnologia da Informação.",
-      "7": " Apesar de ter uma boa base e experiências práticas na área analítica, ",
-      "8": "meu perfil é extremamente comunicativo e, acima de tudo, criativo.",
-      "9": " Atualmente curso Marketing ",
+      "0": "Iniciei minha trajetória na tecnologia aos 16 anos, com o curso técnico em Desenvolvimento de Sistemas, e atualmente sou graduanda em Gestão da Tecnologia da Informação. Tenho experiência em Desenvolvimento Front-end e Cibersegurança, atuando com React, Next.js, TypeScript e Tailwind CSS.",
+
+      "1": "Sou uma pessoa comunicativa, criativa e apaixonada por tecnologia, com interesse em compartilhar conhecimento, aprender continuamente e transformar ideias em soluções.",
+
+      "11": "Me chamo Julia Paiva, tenho ",
+      "12": "20 anos e sou de São Paulo.",
+      "13": " Iniciei meus estudos na área da tecnologia aos 16 anos com o curso técnico em ",
+      "14": "Desenvolvimento de Sistemas",
+      "15": " e dei sequência quando optei por cursar ",
+      "16": "Gestão da Tecnologia da Informação.",
+      "17": " Apesar de ter uma boa base e experiências práticas na área analítica, ",
+      "18": "meu perfil é extremamente comunicativo e, acima de tudo, criativo.",
+      "19": " Atualmente curso Marketing ",
       "10": "para complementar meu perfil com uma visão mais estratégica, voltada para comunicação."
     }
   },
@@ -53,36 +60,36 @@
       "assignments": "Principais atribuições"
     },
     "1": {
-      "data": "2023-2024",
+      "data": "2023 Janeiro -2024 Dezembro",
       "title": "Curso Técnico - Desenvolvimento de Sistemas",
       "location": "SENAI",
       "description": "Formação técnica com foco em lógica de programação, desenvolvimento de software e fundamentos de tecnologia voltados ao mercado de trabalho."
     },
     "2": {
-      "data": "2025-2026",
+      "data": "2025 Janeiro - Cursando",
       "title": "Graduação - Gestão da Tecnologia da Informação",
       "location": "Universidade Paulista",
       "description": "Graduação focada na gestão de recursos tecnológicos, sistemas de informação e projetos de TI nas organizações."
     },
     "3": {
-      "data": "2025-2026",
+      "data": "2025 Abril - 2026 Abril",
       "title": "Aprendiz em Cybersecurity",
       "location": "Keeggo",
       "description": "Atuação como aprendiz na área de Cibersegurança, com foco em privacidade e proteção de dados, análise de vulnerabilidades e boas práticas de segurança da informação.",
       "more": {
         "words": "ISO 27001 - LGPD - Pentest",
         "1": {
-          "title": "Segurança Ofensiva",
+          "title": "Governança e Privacidade",
           "description": "Atuação na migração e implantação da plataforma Privacy Tools, apoiando empresas como Banco do Nordeste, Sura e Yamaha na gestão de riscos, atividades de privacidade e adequação à LGPD."
         },
         "2": {
-          "title": "Governança e Privacidade",
-          "description": "Participação no planejamento, execução e análise de campanhas internas de phishing, contribuindo para a conscientização dos usuários e fortalecimento da cultura de segurança. Suporte às atividades de Red Team, auxiliando na identificação de vulnerabilidades externas, análise de riscos e testes de segurança na Sompo Seguros."
+          "title": "Segurança Ofensiva",
+          "description": "Participação no planejamento, execução e análise de campanhas internas de phishing, contribuindo para a conscientização dos usuários e fortalecimento da cultura de segurança. Suporte às atividades de Red Team, auxiliando na identificação de vulnerabilidades externas, análise de riscos e testes de segurança RTA."
         }
       }
     },
     "4": {
-      "data": "2026-Atual",
+      "data": "2026 Abril - Atual",
       "title": "Desenvolvedora Front-end Júnior",
       "location": "Visual Mix",
       "description": "Experiência profissional no desenvolvimento de interfaces web modernas e responsivas, com forte foco na experiência do usuário para o setor varejista.",

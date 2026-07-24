@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
+  title: 'Julia Paiva',
   description:
     'Desenvolvedora Front-end especializada em React, Next.js, TypeScript e Tailwind CSS. Conheça meus projetos e entre em contato.',
 };

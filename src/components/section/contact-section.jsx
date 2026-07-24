@@ -23,7 +23,6 @@ export default function Contact() {
        const audio = new Audio('/sounds/sound-bubble.mp3');
     audio.play();
       toast.success(t("contact.copy-email.title"), {
-      description: t("contact.copy-email.description"),
     });
     });
   }

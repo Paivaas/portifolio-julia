@@ -12,9 +12,7 @@ export default function Menu() {
   return (
 
     <CursorSparkles className='flex flex-col justify-center items-center '>
-      <section className="w-full h-100 flex flex-col justify-between pb-24 items-center">
-
-     
+      <section className="w-full h-100 flex flex-col justify-between pb-24 items-center">    
             <menu className="flex gap-70 p-4 text-xs">
                   <p>{t('portfolio.year')}</p>
                   <p className='text-sm font-semibold'>{t('portfolio.subtitle')}</p>

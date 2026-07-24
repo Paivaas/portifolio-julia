@@ -30,40 +30,42 @@ export default function AboutMe() {
     setClicado((prev) => !prev);
   }
 
-  const Img = clicado ? "./foto-cam2.svg" : "./foto-cam.svg";
+  const Img = clicado ? "./foto-cam3.svg" : "./foto-cam.svg";
 
 
   return (
     <section className="flex flex-col md:flex-row justify-center items-center gap-8 pt-12 md:gap-12 rounded-3xl">
-       <Button onClick={soundOpenTabsCam} className='cursor-pointer'> 
+       <Button onClick={soundOpenTabsCam} className='cursor-pointer bg-white hover:bg-white'> 
           <div className="relative w-64 h-64 md:w-95 md:h-75 shrink-0">
             <Image src={Img} alt="Foto de perfil" fill className="object-fit rotate-[-10deg]" />
           </div>
         </Button>
       <div className="flex flex-col gap-4 text-center md:text-left">
-        {/* <h2 className="text-5xl">{t('about-me.title')}</h2> */}
 
-        <WordRotate duration={3800} className="text-sm text-black dark:text-white" words={["Experiencia em Cybersecurity","Desenvolvedora Front-end","Formada em Gestão de TI","Estudante de Marketing"]}/>
+        {/* <WordRotate duration={3800} className="text-sm text-black dark:text-white" words={["Experiencia em Cybersecurity","Desenvolvedora Front-end","Graduanda em Gestão de TI"]}/> */}
 
-
-        <Badge variant="secondary">
-        {t('about.experience')}
+        <h1>
+           {t('about.title')}
+        </h1>
+        <div className='flex items-center gap-2'>
+          <Badge variant="secondary">
+        {t('about.badge1')}
         <BadgeCheck data-icon="inline-start"  />
       </Badge>
-        <p className="text-sm text-justify w-112.5 leading-loose">
-          {t('about.text.1')}
-          <HoverHighlighter action="highlight" color="#FFE7F4">{t('about.text.2')}</HoverHighlighter>
-          {t('about.text.3')}
-          <HoverHighlighter action="underline" color="#D472A7">{t('about.text.4')}</HoverHighlighter>
-          {t('about.text.5')}
-          <HoverHighlighter action="underline" color="#D472A7">{t('about.text.6')}</HoverHighlighter>
-          {t('about.text.7')}
-          <HoverHighlighter action="" color="#FF9800">{t('about.text.8')}</HoverHighlighter>
-          <HoverHighlighter action="highlight" color="#FFE7F4">{t('about.text.9')}</HoverHighlighter>
-          {t('about.text.10')}
+      <Badge variant="secondary">
+        {t('about.badge2')}
+        <BadgeCheck data-icon="inline-start"  />
+      </Badge>
+        </div>
+        <p className="text-sm text-justify w-152.5 leading-loose">
+          {t('about.text.0')}
+
         </p>
 
-        
+         <p className="text-sm text-justify w-152.5 leading-loose">
+          {t('about.text.1')}
+
+        </p>
       </div>
     </section>
   );
