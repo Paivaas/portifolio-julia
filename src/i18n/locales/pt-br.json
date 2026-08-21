@@ -13,12 +13,13 @@
   "about": {
     "badge1": "2 anos trabalhando com TI",
     "badge2": "+4 anos estudando TI",
+    "badge3": "Comunicação & marketing",
 
     "title": "Olá, eu sou a Julia 👋",
     "text": {
-      "0": "Iniciei minha trajetória na tecnologia aos 16 anos, com o curso técnico em Desenvolvimento de Sistemas, e atualmente sou graduanda em Gestão da Tecnologia da Informação. Tenho experiência em Desenvolvimento Front-end e Cibersegurança, atuando com React, Next.js, TypeScript e Tailwind CSS.",
+      "0": "Iniciei minha trajetória na tecnologia aos 16 anos, com o curso técnico em Desenvolvimento de Sistemas e atualmente sou graduanda em Gestão da Tecnologia da Informação. Tenho experiência com desenvolvimento Front-end e Cibersegurança, atualmente atuando principalmente com Next.js, TypeScript e Tailwind CSS.",
 
-      "1": "Sou uma pessoa comunicativa, criativa e apaixonada por tecnologia, com interesse em compartilhar conhecimento, aprender continuamente e transformar ideias em soluções.",
+      "1": "Apesar de estar me consolidando na área de TI, também tenho grande interesse pelo setor de comunicação. Por isso, sigo estudando e aprofundando meus conhecimentos em conceitos de marketing, gestão e publicidade, buscando unir tecnologia e comunicação para transformar ideias em soluções criativas e estratégicas.",
 
       "11": "Me chamo Julia Paiva, tenho ",
       "12": "20 anos e sou de São Paulo.",
@@ -57,7 +58,8 @@
   "line-up": {
     "commun": {
       "category": "Formação & Experiência",
-      "assignments": "Principais atribuições"
+      "assignments1": "Principais atribuições",
+      "assignments2": "Ver mais detalhes"
     },
     "1": {
       "data": "2023 Janeiro -2024 Dezembro",
@@ -92,6 +94,23 @@
       "data": "2026 Abril - Atual",
       "title": "Desenvolvedora Front-end Júnior",
       "location": "Visual Mix",
+      "description": "Experiência profissional no desenvolvimento de interfaces web modernas e responsivas, com forte foco na experiência do usuário para o setor varejista.",
+      "more": {
+        "words": "Git - Next.js - Tailwind CSS - Node.js",
+        "1": {
+          "title": "Design de Experiência do Usuário",
+          "description": "Foco na criação de interfaces digitais intuitivas por meio da análise da jornada do usuário, organização de fluxos e estruturação de layouts."
+        },
+        "2": {
+          "title": "Desenvolvimento Web",
+          "description": "Desenvolvimento de aplicações e interfaces web utilizando tecnologias modernas, com foco em desempenho, responsividade, usabilidade e boas práticas de programação, garantindo soluções funcionais e eficientes."
+        }
+      }
+    },
+    "5": {
+      "data": "2024",
+      "title": "Hackathon HP & SENAI",
+      "location": "Barueri, SP",
       "description": "Experiência profissional no desenvolvimento de interfaces web modernas e responsivas, com forte foco na experiência do usuário para o setor varejista.",
       "more": {
         "words": "Git - Next.js - Tailwind CSS - Node.js",
