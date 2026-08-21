@@ -11,11 +11,18 @@
     "role": "Frontend Developer"
   },
   "about": {
+    "badge1": "2+ Years in IT",
+    "badge2": "4+ Years Studying IT",
+    "badge3": "Communication & Marketing",
+
     "experience": "2+ Years in IT",
+
+    "title": "Hi, I'm Julia 👋",
+
     "text": {
       "0": "I started my journey in technology at the age of 16 through a Technical Program in Systems Development, and I am currently pursuing a Bachelor's degree in Information Technology Management. I have experience in Front-end Development and Cybersecurity, working with React, Next.js, TypeScript, and Tailwind CSS.",
-      "1": "I am a communicative, creative, and technology-driven person, passionate about sharing knowledge, continuously learning, and turning ideas into practical solutions.",
 
+      "1": "Although I am building my career in IT, I also have a strong interest in the communication field. For this reason, I continue studying and expanding my knowledge of marketing, management, and advertising concepts, seeking to combine technology and communication to transform ideas into creative and strategic solutions.",
       "11": "My name is Julia Paiva, I am ",
       "2": "19 years old and I am from São Paulo, Brazil.",
       "3": " I started studying technology at the age of 16 through a technical course in ",
@@ -28,14 +35,23 @@
       "10": "to complement my technical background with a more strategic perspective focused on communication."
     }
   },
+
+  "tools": {
+    "1": "Systems Development",
+    "2": "Security & Privacy",
+    "3": "Marketing"
+  },
+
   "categories": {
     "1": "About Me",
     "2": "Tools",
     "3": "Projects"
   },
+
   "projects": {
     "about": "About",
     "view-project": "View Project",
+
     "1": {
       "year": "2026",
       "title": "Meal Prep Manager",
@@ -49,67 +65,99 @@
       }
     }
   },
+
   "line-up": {
     "commun": {
       "category": "Education & Experience",
-      "assignments": "Main Responsibilities"
+      "assignments": "Main Responsibilities",
+      "assignments1": "Main Responsibilities",
+      "assignments2": "View More Details"
     },
+
     "1": {
       "data": "2023-2024",
       "title": "Technical Course - Systems Development",
       "location": "SENAI",
       "description": "Technical education focused on programming logic, software development, and technology fundamentals aligned with industry needs."
     },
+
     "2": {
       "data": "2025-2026",
       "title": "Education - Information Technology Management",
       "location": "Paulista University",
       "description": "Degree focused on technology resource management, information systems, and IT project management within organizations."
     },
+
     "3": {
       "data": "2025-2026",
       "title": "Cybersecurity Apprentice",
       "location": "Keeggo",
       "description": "Worked as a Cybersecurity Apprentice, focusing on privacy and data protection, vulnerability assessment, and information security best practices.",
+
       "more": {
         "words": "ISO 27001 - LGPD - Pentesting",
+
         "1": {
           "title": "Governance & Privacy",
           "description": "Participated in the migration and implementation of the Privacy Tools platform, supporting companies such as Banco do Nordeste, Sura, and Yamaha in risk management, privacy operations, and LGPD compliance."
         },
+
         "2": {
           "title": "Offensive Security",
           "description": "Participated in the planning, execution, and analysis of internal phishing campaigns, helping raise user awareness and strengthen the organization's security culture. Also supported Red Team activities by assisting with external vulnerability assessments, risk analysis, and security testing at Sompo Seguros."
         }
       }
     },
+
     "4": {
       "data": "2026-Present",
       "title": "Junior Frontend Developer",
       "location": "Visual Mix",
       "description": "Professional experience developing modern and responsive web interfaces with a strong focus on user experience for the retail industry.",
+
       "more": {
         "words": "Git - Next.js - Tailwind CSS - Node.js",
+
         "1": {
           "title": "User Experience Design",
           "description": "Focused on creating intuitive digital interfaces through user journey analysis, workflow organization, and interface layout design."
         },
+
         "2": {
           "title": "Web Development",
           "description": "Development of modern web applications and interfaces using modern technologies, with a focus on performance, responsiveness, usability, and clean coding practices, delivering efficient and scalable solutions."
         }
       }
+    },
+
+    "5": {
+      "data": "2024",
+      "title": "HP & SENAI Hackathon",
+      "location": "Barueri, SP",
+      "description": "",
+
+      "more": {
+        "words": "Git - Next.js - Tailwind CSS - Node.js",
+
+        "1": {
+          "title": "HP & SENAI Idea Challenge",
+          "description": "Participated in the Idea Challenge, an initiative promoted by HP in partnership with SENAI. The experience provided an opportunity to develop innovative ideas, strengthen teamwork skills, learn from mentors, and gain new perspectives. My team ultimately won the challenge, making this an important milestone in my professional journey."
+        }
+      }
     }
   },
+
   "contact": {
     "category": "Contact",
     "view-linkedin": "View Profile",
     "send-message": "Send Message",
     "footer": "Julia Paiva | Frontend Developer © 2026 All Rights Reserved.",
+
     "copy-email": {
       "title": "Email copied!",
       "description": "The email has been copied to your clipboard."
     },
+
     "whatsapp-message": "Hi, Julia! I found you through your portfolio."
   }
 }

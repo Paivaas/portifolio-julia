@@ -53,7 +53,7 @@ export default function ExperienceTimeline() {
         <CollapsibleContent className="mt-4 flex flex-col gap-6 relative top-10 left-130">
           <div>
             <Card className="w-72  md:w-212.5 text-justify">
-              <CardHeader>Desafio de ideias HP e SENAI</CardHeader>
+              <CardHeader>{t('line-up.5.more.1.title')}</CardHeader>
 
               <CardContent className="space-y-2">
                 <div className="flex gap-4">
@@ -74,29 +74,7 @@ export default function ExperienceTimeline() {
                   />
                 </div>
 
-                <CardDescription>
-                  Participei do Desafio de Ideias, uma iniciativa promovida pela HP em parceria com
-                  o SENAI, que proporcionou uma experiência de inovação, aprendizado e trabalho em
-                  equipe. Ao lado de profissionais e estudantes, desenvolvi novas perspectivas,
-                  aprimorei habilidades e tive a oportunidade de aprender com mentores durante todo
-                  o processo. Como resultado, minha equipe foi vencedora do desafio, tornando essa
-                  experiência ainda mais marcante para minha trajetória profissional.
-                </CardDescription>
-
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">Trabalho em equipe</Badge>
-                  <Badge variant="outline">Criatividade</Badge>
-                  <Badge variant="outline">Inovação</Badge>
-                  <Badge variant="outline">Resolução de problemas</Badge>
-                  <Badge variant="outline">Pensamento estratégico</Badge>
-                  <Badge variant="outline">Comunicação</Badge>
-                  <Badge variant="outline">Apresentação de ideias</Badge>
-                  <Badge variant="outline">Ideação</Badge>
-                  <Badge variant="outline">Desenvolvimento de soluções</Badge>
-                  <Badge variant="outline">Organização</Badge>
-                  <Badge variant="outline">Adaptabilidade</Badge>
-                  <Badge variant="outline">Proatividade</Badge>
-                </div>
+                <CardDescription>{t('line-up.5.more.1.description')}</CardDescription>
               </CardContent>
             </Card>
           </div>

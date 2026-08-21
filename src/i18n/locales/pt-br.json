@@ -33,12 +33,18 @@
       "10": "para complementar meu perfil com uma visão mais estratégica, voltada para comunicação."
     }
   },
+  "tools": {
+    "1": "Desenvolvimento de sistemas",
+    "2": "Segurança e privacidade",
+    "3": "Marketing"
+  },
 
   "categories": {
     "1": "Sobre mim",
     "2": "Ferramentas",
     "3": "Projetos"
   },
+
   "projects": {
     "about": "Sobre",
     "view-project": "Ver projeto",
@@ -111,16 +117,12 @@
       "data": "2024",
       "title": "Hackathon HP & SENAI",
       "location": "Barueri, SP",
-      "description": "Experiência profissional no desenvolvimento de interfaces web modernas e responsivas, com forte foco na experiência do usuário para o setor varejista.",
+      "description": "",
       "more": {
         "words": "Git - Next.js - Tailwind CSS - Node.js",
         "1": {
-          "title": "Design de Experiência do Usuário",
-          "description": "Foco na criação de interfaces digitais intuitivas por meio da análise da jornada do usuário, organização de fluxos e estruturação de layouts."
-        },
-        "2": {
-          "title": "Desenvolvimento Web",
-          "description": "Desenvolvimento de aplicações e interfaces web utilizando tecnologias modernas, com foco em desempenho, responsividade, usabilidade e boas práticas de programação, garantindo soluções funcionais e eficientes."
+          "title": "Desafio de ideias HP e SENAI",
+          "description": "Participei do Desafio de Ideias, uma iniciativa promovida pela HP em parceria com o SENAI, que proporcionou uma experiência de inovação, aprendizado e trabalho em equipe. Ao lado de profissionais e estudantes, desenvolvi novas perspectivas, aprimorei habilidades e tive a oportunidade de aprender com mentores durante todoo processo. Como resultado, minha equipe foi vencedora do desafio, tornando essa experiência ainda mais marcante para minha trajetória profissional."
         }
       }
     }
