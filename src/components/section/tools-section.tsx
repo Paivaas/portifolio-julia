@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 const skills = [
   {
-    title: 'tools.1',
+    title: 'tools.2',
     items: [
       ['darktrace.svg', 'Darktrace', '#D1F6CA'],
       ['ivanti.svg', 'Ivanti', '#ADD8E6'],
@@ -22,7 +22,7 @@ const skills = [
     ],
   },
   {
-    title: 'tools.2',
+    title: 'tools.1',
     items: [
       ['react.svg', 'React', '#ADD8E6'],
       ['node.svg', 'Node', '#D1F6CA'],
