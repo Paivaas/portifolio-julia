@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ChevronsUpDown, ChevronsDownUp, Podium, Trophy } from 'lucide-react';
+import { ChevronsUpDown, ChevronsDownUp, Trophy } from 'lucide-react';
 
 import {
   Card,
