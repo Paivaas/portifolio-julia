@@ -193,8 +193,6 @@ export default function ExperienceTimeline() {
                       soluções.
                     </p>
 
-                    <p>oi</p>
-
                     <div className="space-x-2">
                       <Badge className="bg-orange-50 text-orange-700 ">Conquista </Badge>
                       <Badge className="bg-orange-50 text-orange-700 ">Experiencia </Badge>
