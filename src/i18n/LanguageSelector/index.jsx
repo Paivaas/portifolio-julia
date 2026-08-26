@@ -15,7 +15,7 @@ export default function LanguageSelector() {
   return (
     <button
       onClick={toggleLanguage}
-      className="px-4 py-2 border rounded-md cursor-pointer"
+      className="px-2 sm:px-4 py-1 sm:py-2 border rounded-md cursor-pointer"
     >
       {i18n.language.startsWith('pt') ? '🇧🇷 PT' : '🇺🇸 EN'}
     </button>

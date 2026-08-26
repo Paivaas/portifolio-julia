@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="flex flex-col style={{ fontFamily: 'var(--fontx-poppins)' }} no-scrollbar">
       <Pointer />
-      <div className="flex flex-col gap-24">
+      <div className="flex flex-col gap-14 sm:gap-24">
         <CursorSparkles>
           <Header />
         </CursorSparkles>
