@@ -56,7 +56,7 @@ const skills = [
 export default function Tools() {
   const { t } = useTranslation();
   return (
-    <section className="w-full flex flex-col sm:flex-wrap gap-14 sm:gap-2 py-12 justify-center  items-start">
+    <section className=" w-85 sm:w-full  flex flex-col sm:flex-wrap gap-14 sm:gap-2 py-12 justify-center  items-start">
       {skills.map((skill) => (
         <section className="flex justify-center flex-col items-center gap-2" key={skill.title}>
           <h1>{t(skill.title)}</h1>
