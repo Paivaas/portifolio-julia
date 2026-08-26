@@ -1,25 +1,30 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 
 export default function Experience1() {
   const { t } = useTranslation();
 
   return (
-     <div className="grid gap-x-4 grid-cols-[290px_24px_290px] md:grid-cols-[290px_24px_350px] text-xs transition-transform duration-300 ease-in-out hover:scale-105">
-        <div />     
-        <div />
-        <p>{t("line-up.1.data")}</p>
+    <div className="grid gap-x-4 grid-cols-[20px_24px_290px] sm:grid-cols-[290px_24px_290px] md:grid-cols-[290px_24px_350px] text-xs transition-transform duration-300 ease-in-out hover:scale-105">
+      <div />
+      <div />
+      <p>{t('line-up.1.data')}</p>
 
-        <div />
-        <p className="bg-black text-white w-6 h-6 rounded-full flex justify-center items-center"> 1</p>
-        <h1 className="font-semibold text-sm"> {t("line-up.1.title")} </h1>
+      <div />
+      <p className="bg-black text-white w-6 h-6 rounded-full flex justify-center items-center">
+        {' '}
+        1
+      </p>
+      <h1 className="font-semibold text-sm"> {t('line-up.1.title')} </h1>
 
-        <div />
-        <div className="flex justify-center items-center"> <span className="w-1 h-full mt-10 bg-zinc-300 rounded-2xl"></span> </div>
-        <div>
-           <span className="text-zinc-500"> {t("line-up.1.location")}  </span>
-           <p> {t("line-up.1.description")}</p>
-        </div>
-        
+      <div />
+      <div className="flex justify-center items-center">
+        {' '}
+        <span className="w-1 h-full mt-10 bg-zinc-300 rounded-2xl"></span>{' '}
+      </div>
+      <div className="pb-6 sm:pb-0">
+        <span className="text-zinc-500"> {t('line-up.1.location')} </span>
+        <p> {t('line-up.1.description')}</p>
+      </div>
     </div>
   );
 }
