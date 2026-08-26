@@ -27,7 +27,7 @@ export default function Menu() {
           <h2> {t('profile.name')}</h2>
         </div>
       </section>
-      <ChevronDown />
+      <ChevronDown className="animate-bounce" />
     </CursorSparkles>
   );
 }
