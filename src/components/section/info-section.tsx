@@ -12,7 +12,7 @@ export default function Info() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex justify-center items-center gap-12 ">
+    <div className="flex justify-center items-center gap-12 pt-12 sm:pt-0">
       <Tabs defaultValue="aboutme" className=" items-center ">
         <TabsList variant="line" className="bg-white flex gap-12 ">
           <TabsTrigger value="aboutme"> {t('categories.1')} </TabsTrigger>
