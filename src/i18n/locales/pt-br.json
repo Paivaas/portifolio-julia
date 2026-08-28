@@ -116,14 +116,34 @@
     "5": {
       "data": "2024",
       "title": "Hackathon HP & SENAI",
+      "description": "Do planejamento até o primeiro lugar!",
       "location": "Barueri, SP",
-      "description": "",
-      "more": {
-        "words": "Git - Next.js - Tailwind CSS - Node.js",
-        "1": {
-          "title": "Desafio de ideias HP e SENAI",
-          "description": "Participei do Desafio de Ideias, uma iniciativa promovida pela HP em parceria com o SENAI, que proporcionou uma experiência de inovação, aprendizado e trabalho em equipe. Ao lado de profissionais e estudantes, desenvolvi novas perspectivas, aprimorei habilidades e tive a oportunidade de aprender com mentores durante todoo processo. Como resultado, minha equipe foi vencedora do desafio, tornando essa experiência ainda mais marcante para minha trajetória profissional."
-        }
+      "TabsTrigger1": "Desafio",
+      "TabsTrigger2": "Processo",
+      "TabsTrigger3": "Resultado",
+      "image-description1": "Coffe talk: Ricardo Kamel Managing Director, HP",
+      "image-description2": "Processo de organização e criação do grupo",
+      "image-description3": "Foto em grupo com todos os participantes",
+      "image-description4": "Avaliadora: Regina Higa Operations Manager,HP",
+
+      "initial": {
+        "tag1": "Inovação",
+        "tag2": "Trabalho em equipe",
+        "tag3": "Tecnologia",
+        "1": "O desafio começou na formação dos grupos, que reuniu alunos de duas escolas diferentes, tornando o meu primeiro obstáculo trabalhar com pessoas que eu ainda não conhecia.",
+        "2": "A proposta principal era solucionar um problema de comunicação que a HP tinha com os clientes em relação ao suporte dos produtos. A nossa solução consistiu na criação de um meio de comunicação acessível, baseado em uma abordagem omnichannel, que possibilitasse oferecer suporte mais eficiente e otimizado para todos os consumidores da HP."
+      },
+      "process": {
+        "tag1": "Planejamento",
+        "tag2": "Coocriação",
+        "1": "Foram quatro dias intensos de produção, seguidos por um dia dedicado à apresentação do projeto. Durante esse período, passamos por diferentes etapas de planejamento, pesquisa e desenvolvimento, organizando mapas de ideias, definindo prioridades e compartilhando conhecimentos entre os integrantes do grupo.",
+        "2": "Ao longo de todo o processo, também contamos com o acompanhamento de representantes da HP e dos professores, que estiveram presentes para orientar, acompanhar nossa evolução e contribuir com diferentes perspectivas."
+      },
+      "final": {
+        "tag1": "Conquista",
+        "tag2": "Experiencia",
+        "1": "Ao final, fomos vencedores, o que nos proporcionou uma experiência ainda mais próxima da HP. Tivemos a oportunidade de conhecer sua fábrica, o centro de reciclagem, as áreas de P&D e os laboratórios, além de participar de um Coffee Talk com Ricardo Kamel, MD da HP Brasil, e seu time de diretores.",
+        "2": "Foi uma oportunidade de apresentar nossa ideia, conhecer diferentes áreas da empresa e entender, na prática, como a HP trabalha para desenvolver suas soluções."
       }
     }
   },

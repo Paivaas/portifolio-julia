@@ -21,7 +21,6 @@
 
     "text": {
       "0": "I started my journey in technology at the age of 16 through a Technical Program in Systems Development, and I am currently pursuing a Bachelor's degree in Information Technology Management. I have experience in Front-end Development and Cybersecurity, working with React, Next.js, TypeScript, and Tailwind CSS.",
-
       "1": "Although I am building my career in IT, I also have a strong interest in the communication field. For this reason, I continue studying and expanding my knowledge of marketing, management, and advertising concepts, seeking to combine technology and communication to transform ideas into creative and strategic solutions.",
       "11": "My name is Julia Paiva, I am ",
       "2": "19 years old and I am from São Paulo, Brazil.",
@@ -32,7 +31,15 @@
       "7": " Although I have a solid technical background and hands-on experience in analytical roles, ",
       "8": "I am highly communicative and, above all, creative.",
       "9": " I am currently studying Marketing ",
-      "10": "to complement my technical background with a more strategic perspective focused on communication."
+      "10": "to complement my technical background with a more strategic perspective focused on communication.",
+      "12": "20 years old and I am from São Paulo, Brazil.",
+      "13": " I started my studies in technology at the age of 16 through a technical course in ",
+      "14": "Systems Development",
+      "15": " and continued my education when I chose to pursue ",
+      "16": "Information Technology Management.",
+      "17": " Although I have a strong foundation and practical experience in analytical roles, ",
+      "18": "my profile is extremely communicative and, above all, creative.",
+      "19": " I am currently studying Marketing "
     }
   },
 
@@ -133,16 +140,34 @@
     "5": {
       "data": "2024",
       "title": "HP & SENAI Hackathon",
+      "description": "From planning to first place!",
       "location": "Barueri, SP",
-      "description": "",
+      "TabsTrigger1": "Challenge",
+      "TabsTrigger2": "Process",
+      "TabsTrigger3": "Result",
+      "image-description1": "Coffee Talk: Ricardo Kamel, Managing Director at HP",
+      "image-description2": "Group organization and creation process",
+      "image-description3": "Group photo with all participants",
+      "image-description4": "Evaluator: Regina Higa, Operations Manager at HP",
 
-      "more": {
-        "words": "Git - Next.js - Tailwind CSS - Node.js",
-
-        "1": {
-          "title": "HP & SENAI Idea Challenge",
-          "description": "Participated in the Idea Challenge, an initiative promoted by HP in partnership with SENAI. The experience provided an opportunity to develop innovative ideas, strengthen teamwork skills, learn from mentors, and gain new perspectives. My team ultimately won the challenge, making this an important milestone in my professional journey."
-        }
+      "initial": {
+        "tag1": "Innovation",
+        "tag2": "Teamwork",
+        "tag3": "Technology",
+        "1": "The challenge began with the formation of the groups, bringing together students from two different schools. This made my first obstacle working with people I had not yet met.",
+        "2": "The main goal was to solve a communication issue HP had with its customers regarding product support. Our solution consisted of creating an accessible communication channel based on an omnichannel approach, enabling more efficient and optimized support for all HP customers."
+      },
+      "process": {
+        "tag1": "Planning",
+        "tag2": "Co-creation",
+        "1": "There were four intense days of production, followed by a day dedicated to presenting the project. During this period, we went through different stages of planning, research, and development, organizing idea maps, setting priorities, and sharing knowledge among the group members.",
+        "2": "Throughout the entire process, we were also supported by HP representatives and teachers, who were present to guide us, follow our progress, and contribute different perspectives."
+      },
+      "final": {
+        "tag1": "Achievement",
+        "tag2": "Experience",
+        "1": "In the end, we became the winners, which gave us an even closer experience with HP. We had the opportunity to visit its factory, recycling center, R&D areas, and laboratories, as well as take part in a Coffee Talk with Ricardo Kamel, Managing Director of HP Brazil, and his team of directors.",
+        "2": "It was an opportunity to present our idea, explore different areas of the company, and understand in practice how HP works to develop its solutions."
       }
     }
   },
