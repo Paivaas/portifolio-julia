@@ -42,7 +42,7 @@
   "categories": {
     "1": "Sobre mim",
     "2": "Ferramentas",
-    "3": "Projetos"
+    "3": "Mini jogo"
   },
 
   "projects": {
@@ -88,11 +88,11 @@
         "words": "ISO 27001 - LGPD - Pentest",
         "1": {
           "title": "Governança e Privacidade",
-          "description": "Atuação na migração e implantação da plataforma Privacy Tools, apoiando empresas como Banco do Nordeste, Sura e Yamaha na gestão de riscos, atividades de privacidade e adequação à LGPD."
+          "description": "Atuei na migração e implantação da plataforma Privacy Tools, apoiando empresas como Banco do Nordeste, Sura e Yamaha na gestão de riscos, atividades de privacidade e adequação à LGPD."
         },
         "2": {
           "title": "Segurança Ofensiva",
-          "description": "Participação no planejamento, execução e análise de campanhas internas de phishing, contribuindo para a conscientização dos usuários e fortalecimento da cultura de segurança. Suporte às atividades de Red Team, auxiliando na identificação de vulnerabilidades externas, análise de riscos e testes de segurança RTA."
+          "description": "Participei no planejamento, execução e análise de campanhas internas de phishing, ajduadno na conscientização dos colaboradores internos. Prestei suporte às atividades de Red Team, auxiliando na identificação de vulnerabilidades externas, análise de riscos e testes de segurança RTA."
         }
       }
     },

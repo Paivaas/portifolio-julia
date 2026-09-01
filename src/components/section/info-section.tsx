@@ -1,12 +1,12 @@
 'use client';
-import { useTranslation } from 'react-i18next';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { useTranslation } from 'react-i18next';
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import Projects from '@/components/section/projects-section';
 import AboutMe from '@/components/section/aboutme-section';
 import Tools from '@/components/section/tools-section';
 import Reveal from '@/components/ui/Reveal';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import AppGameTeste from '@/components/section/projects/PageGame';
 
 export default function Info() {
   const { t } = useTranslation();
@@ -17,7 +17,7 @@ export default function Info() {
         <TabsList variant="line" className="bg-white flex gap-12 ">
           <TabsTrigger value="aboutme"> {t('categories.1')} </TabsTrigger>
           <TabsTrigger value="tools">{t('categories.2')}</TabsTrigger>
-          {/* <TabsTrigger value="projects">{t('categories.3')}</TabsTrigger> */}
+          <TabsTrigger value="projects">{t('categories.3')}</TabsTrigger>
         </TabsList>
         <TabsContent value="aboutme">
           <Reveal>
@@ -31,7 +31,9 @@ export default function Info() {
         </TabsContent>
         <TabsContent value="projects">
           <Reveal>
-            <Projects />
+            {/* <Projects /> */}
+
+            <AppGameTeste />
           </Reveal>
         </TabsContent>
       </Tabs>
