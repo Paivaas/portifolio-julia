@@ -27,9 +27,9 @@ const items: GameItem[] = [
   },
   {
     id: 'glasses',
-    name: 'Com óculos',
-    previewImage: '/game/glasses-preview.png',
-    characterImage: '/game/menina-oculos.png',
+    name: 'Óculos',
+    previewImage: '/game/oculos.jpg',
+    characterImage: '/game/default_oculos.svg',
   },
 ];
 
