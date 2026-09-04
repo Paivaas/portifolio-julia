@@ -38,7 +38,7 @@ export function SenacDetails() {
         )}
       </CollapsibleTrigger>
 
-      <CollapsibleContent className="mt-4 flex flex-col gap-6 relative sm:top-10 sm:left-75 right-2">
+      <CollapsibleContent className="mt-4 flex flex-col gap-6 relative sm:top-4 sm:left-75 right-2">
         <div>
           <Card className="w-72 md:w-122.5 text-justify">
             <CardContent>
