@@ -17,7 +17,7 @@ export default function Info() {
         <TabsList variant="line" className="bg-white flex gap-12 ">
           <TabsTrigger value="aboutme"> {t('categories.1')} </TabsTrigger>
           <TabsTrigger value="tools">{t('categories.2')}</TabsTrigger>
-          <TabsTrigger value="projects">{t('categories.3')}</TabsTrigger>
+          {/* <TabsTrigger value="projects">{t('categories.3')}</TabsTrigger> */}
         </TabsList>
         <TabsContent value="aboutme">
           <Reveal>

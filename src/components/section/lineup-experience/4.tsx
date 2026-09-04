@@ -1,6 +1,6 @@
+'use client';
+import { VisualMixDetails } from '@/components/section/lineup-experience/VisualMixDetails';
 import { useTranslation } from 'react-i18next';
-
-import { CyberDetails } from '@/components/section/lineup-experience/CyberDetails';
 
 export default function ExperienceTimeline() {
   const { t } = useTranslation();
@@ -19,7 +19,7 @@ export default function ExperienceTimeline() {
       <h1 className="font-semibold text-sm"> {t('line-up.4.title')} </h1>
       <div className="block sm:hidden"></div>
       <div className="hidden sm:block">
-        <CyberDetails />
+        <VisualMixDetails />
       </div>
       <div className="flex justify-center items-center">
         {' '}
@@ -30,7 +30,7 @@ export default function ExperienceTimeline() {
         <p></p>
         <div className="block sm:hidden">
           {' '}
-          <CyberDetails />
+          <VisualMixDetails />
         </div>
       </div>
     </div>

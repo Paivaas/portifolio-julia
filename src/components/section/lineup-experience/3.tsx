@@ -1,6 +1,5 @@
+import { KeggoDetails } from '@/components/section/lineup-experience/KeeggoDetails';
 import { useTranslation } from 'react-i18next';
-
-import { DevDetails } from '@/components/section/lineup-experience/DevDetails';
 
 export default function ExperienceTimeline() {
   const { t } = useTranslation();
@@ -20,7 +19,7 @@ export default function ExperienceTimeline() {
 
       <div className="block sm:hidden"></div>
       <div className="hidden sm:block">
-        <DevDetails />
+        <KeggoDetails />
       </div>
       <div className="flex justify-center items-center">
         <span className="w-1 h-full mt-10 bg-zinc-300 rounded-2xl"></span>
@@ -30,7 +29,7 @@ export default function ExperienceTimeline() {
         <p></p>
         <div className="block sm:hidden">
           {' '}
-          <DevDetails />
+          <KeggoDetails />
         </div>
       </div>
     </div>
