@@ -16,7 +16,7 @@ export default function Certification() {
   return (
     <section className="w-90 sm:w-full flex flex-col gap-8 py-12 justify-center h-fit  items-center">
       <div className="grid sm:grid-cols-3 gap-4">
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div>
@@ -31,7 +31,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <Image src={`/certification/santander.png`} alt="oi" width={40} height={40} />
@@ -44,7 +44,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <Image src={`/certification/orango.jpg`} alt="oi" width={40} height={40} />
@@ -57,7 +57,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div className="w-10 h-10">
@@ -74,7 +74,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div className="w-15 h-15">
@@ -92,7 +92,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div className="w-10 h-10">
@@ -107,7 +107,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div className="w-10 h-10">
@@ -122,7 +122,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <Image src={`/certification/senai.png`} alt="oi" width={40} height={40} />
@@ -135,7 +135,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <Image src={`/senai.png`} alt="oi" width={40} height={40} />
@@ -148,7 +148,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <Image src={`/senai.png`} alt="oi" width={40} height={40} />
@@ -161,7 +161,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <Image src={`/senai.png`} alt="oi" width={40} height={40} />
@@ -174,7 +174,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <Image src={`/senai.png`} alt="oi" width={40} height={40} />
@@ -187,7 +187,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <Image src={`/senai.png`} alt="oi" width={40} height={40} />
@@ -200,7 +200,7 @@ export default function Certification() {
           </CardHeader>
         </Card>
 
-        <Card className="w-96">
+        <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div className="w-10 h-10">
