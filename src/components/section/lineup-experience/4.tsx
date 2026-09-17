@@ -23,7 +23,7 @@ export default function ExperienceTimeline() {
       </div>
       <div className="flex justify-center items-center">
         {' '}
-        {/* <span className="w-1 h-full mt-10 bg-zinc-300 rounded-2xl"></span>{' '} */}
+        <span className="w-1 h-full mt-10 bg-zinc-300 rounded-2xl"></span>{' '}
       </div>
       <div className="pb-6 sm:pb-0">
         <span className="text-zinc-500"> {t('line-up.4.location')} </span>

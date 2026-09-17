@@ -6,6 +6,7 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/component
 
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 export function SenacDetails() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,29 +43,38 @@ export function SenacDetails() {
         <div>
           <Card className="w-72 md:w-122.5 text-justify">
             <CardContent>
-              <p>
-                {' '}
-                Storytelling e Storydoing como Estratégia de Comunicação{' '}
-                <span className="text-black/40">• SENAC</span>
-              </p>
-              <p>
-                Analista de Marketing em Mídias Sociais{' '}
-                <span className="text-black/40">• SENAC</span>
-              </p>
+              <Tabs defaultValue="account">
+                <TabsList>
+                  <TabsTrigger value="account">Marketing | Comunicação</TabsTrigger>
+                  <TabsTrigger value="password">Tecnologia</TabsTrigger>
+                </TabsList>
+                <TabsContent value="account">
+                  <p>
+                    {' '}
+                    Storytelling e Storydoing como Estratégia de Comunicação{' '}
+                    <span className="text-black/40">• SENAC</span>
+                  </p>
+                  <p>
+                    Analista de Marketing em Mídias Sociais{' '}
+                    <span className="text-black/40">• SENAC</span>
+                  </p>
 
-              <p>
-                Estratégia de growth marketing{' '}
-                <span className="text-black/40">• Google/Santander</span>
-              </p>
-              <p>
-                IA Prática para o Marketing{' '}
-                <span className="text-black/40">• Google/Santander</span>
-              </p>
+                  <p>
+                    Estratégia de growth marketing{' '}
+                    <span className="text-black/40">• Google/Santander</span>
+                  </p>
+                  <p>
+                    IA Prática para o Marketing{' '}
+                    <span className="text-black/40">• Google/Santander</span>
+                  </p>
 
-              {/* <p>
+                  {/* <p>
                 Inbound Marketing: estratégias e práticas{' '}
-                <span className="text-black/40">• SENAC</span>
+                <span className="text-black/40"> • SENAC</span>
               </p> */}
+                </TabsContent>
+                <TabsContent value="password">Change your password here.</TabsContent>
+              </Tabs>
             </CardContent>
           </Card>
         </div>

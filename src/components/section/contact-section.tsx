@@ -16,7 +16,7 @@ export default function Contact() {
   }
 
   function copyEmail() {
-    const email = 'contatojupaioliver12@gmail.com';
+    const email = 'juliapoliver12@gmail.com';
 
     navigator.clipboard.writeText(email).then(() => {
       const audio = new Audio('/sounds/sound-bubble.mp3');
@@ -56,7 +56,7 @@ export default function Contact() {
 
             <TabsContent value="email">
               <button onClick={copyEmail} className="flex items-center gap-1 cursor-pointer">
-                contatojupaioliver12@gmail.com
+                juliapoliver12@gmail.com
                 <Copy size={12} />
               </button>
             </TabsContent>

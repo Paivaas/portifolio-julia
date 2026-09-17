@@ -7,6 +7,7 @@ import Tools from '@/components/section/tools-section';
 import Reveal from '@/components/ui/Reveal';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import AppGameTeste from '@/components/section/projects/PageGame';
+import Certification from '@/components/section/certification-section';
 
 export default function Info() {
   const { t } = useTranslation();
@@ -16,7 +17,9 @@ export default function Info() {
       <Tabs defaultValue="aboutme" className=" items-center ">
         <TabsList variant="line" className="bg-white flex gap-12 ">
           <TabsTrigger value="aboutme"> {t('categories.1')} </TabsTrigger>
+          <TabsTrigger value="couses">Cursos</TabsTrigger>
           <TabsTrigger value="tools">{t('categories.2')}</TabsTrigger>
+
           {/* <TabsTrigger value="projects">{t('categories.3')}</TabsTrigger> */}
         </TabsList>
         <TabsContent value="aboutme">
@@ -29,6 +32,13 @@ export default function Info() {
             <Tools />
           </Reveal>
         </TabsContent>
+
+        <TabsContent value="couses">
+          <Reveal>
+            <Certification />{' '}
+          </Reveal>
+        </TabsContent>
+
         <TabsContent value="projects">
           <Reveal>
             {/* <Projects /> */}

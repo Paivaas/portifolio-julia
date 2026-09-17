@@ -24,6 +24,12 @@ export default function Experience1() {
       <div className="pb-6 sm:pb-0">
         <span className="text-zinc-500"> {t('line-up.1.location')} </span>
         <p> {t('line-up.1.description')}</p>
+        <div className="p-4">
+          <ul>
+            <li>🠒 Resentante de turma</li>
+            <li>🠒 Participação no Núcleo de Prevenção de Acidentes e Apoio à Defesa Civil</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
