@@ -47,8 +47,13 @@ const skills = [
     items: [
       ['branding.svg', 'Branding', '#D1F6CA'],
       ['marketing.svg', 'Marketing Digital', '#ADD8E6'],
-      ['seo.svg', 'SEO', '#D1F6CA'],
       ['idea.svg', 'Storytelling', '#FFE7F4'],
+      ['branding.svg', 'Design Criativo', '#D1F6CA'],
+      ['icon1.png', 'Redes sociais', '#ADD8E6'],
+      ['foguete.png', 'Growth Marketing', '#D1F6CA'],
+      ['idea.svg', 'Marketing de Conteúdo', '#FFE7F4'],
+      ['marketing.svg', 'Comunicação', '#D1F6CA'],
+      ['marketing.png', 'Estratégia de Marketing', '#FFE7F4'],
     ],
   },
 ];
