@@ -14,13 +14,13 @@ import { useTranslation } from 'react-i18next';
 export default function Certification() {
   const { t } = useTranslation();
   return (
-    <section className="w-90 sm:w-full flex flex-col gap-8 py-12 justify-center h-fit  items-center">
-      <div className="grid sm:grid-cols-3 gap-4">
+    <section className="w-90  sm:w-full flex flex-col gap-8 py-12 justify-center h-fit  items-center">
+      <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">
         <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div>
-                <Image src={`/certification/santander.png`} alt="oi" width={40} height={40} />
+                <Image src={`/certification/santander.png`} alt="Logo" width={40} height={40} />
               </div>{' '}
               <div>
                 <CardTitle className="text-sm">IA Prática para o Marketing</CardTitle>
@@ -34,7 +34,7 @@ export default function Certification() {
         <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
-              <Image src={`/certification/santander.png`} alt="oi" width={40} height={40} />
+              <Image src={`/certification/santander.png`} alt="Logo" width={40} height={40} />
               <div>
                 <CardTitle className="text-sm">Estratégia de growth marketing</CardTitle>
                 <CardDescription>Google & santander</CardDescription>
@@ -47,7 +47,7 @@ export default function Certification() {
         <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
-              <Image src={`/certification/orango.jpg`} alt="oi" width={40} height={40} />
+              <Image src={`/certification/orango.jpg`} alt="Logo" width={40} height={40} />
               <div>
                 <CardTitle className="text-sm">Design Criativo: Tipos e formas</CardTitle>
                 <CardDescription>Orango</CardDescription>
@@ -61,7 +61,7 @@ export default function Certification() {
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div className="w-10 h-10">
-                <Image src={`/certification/orango.jpg`} alt="oi" width={40} height={40} />
+                <Image src={`/certification/orango.jpg`} alt="Logo" width={40} height={40} />
               </div>{' '}
               <div>
                 <CardTitle className="text-sm">
@@ -78,7 +78,7 @@ export default function Certification() {
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div className="w-15 h-15">
-                <Image src={`/certification/senac.png`} alt="oi" width={40} height={40} />
+                <Image src={`/certification/senac.png`} alt="Logo" width={40} height={40} />
               </div>
               <div>
                 <CardTitle className="text-sm">
@@ -96,7 +96,7 @@ export default function Certification() {
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div className="w-10 h-10">
-                <Image src={`/certification/senac.png`} alt="oi" width={40} height={40} />
+                <Image src={`/certification/senac.png`} alt="Logo" width={40} height={40} />
               </div>
               <div>
                 <CardTitle className="text-sm">Analista de Marketing em Mídias Sociais</CardTitle>
@@ -111,7 +111,7 @@ export default function Certification() {
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div className="w-10 h-10">
-                <Image src={`/senai.png`} alt="oi" width={40} height={40} />
+                <Image src={`/senai.png`} alt="Logo" width={40} height={40} />
               </div>{' '}
               <div>
                 <CardTitle className="text-sm">Privacidade e proteção de dados(LGPD)</CardTitle>
@@ -125,7 +125,7 @@ export default function Certification() {
         <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
-              <Image src={`/certification/senai.png`} alt="oi" width={40} height={40} />
+              <Image src={`/certification/senai.png`} alt="Logo" width={40} height={40} />
               <div>
                 <CardTitle className="text-sm">Redes Sociais na Indústria</CardTitle>
                 <CardDescription>SENAI</CardDescription>
@@ -138,7 +138,7 @@ export default function Certification() {
         <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
-              <Image src={`/senai.png`} alt="oi" width={40} height={40} />
+              <Image src={`/senai.png`} alt="Logo" width={40} height={40} />
               <div>
                 <CardTitle className="text-sm">Fundamentos do Marketing Digital</CardTitle>
                 <CardDescription>SENAI</CardDescription>
@@ -151,7 +151,7 @@ export default function Certification() {
         <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
-              <Image src={`/senai.png`} alt="oi" width={40} height={40} />
+              <Image src={`/senai.png`} alt="Logo" width={40} height={40} />
               <div>
                 <CardTitle className="text-sm">Design Thinking</CardTitle>
                 <CardDescription>SENAI</CardDescription>
@@ -164,7 +164,7 @@ export default function Certification() {
         <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
-              <Image src={`/senai.png`} alt="oi" width={40} height={40} />
+              <Image src={`/senai.png`} alt="Logo" width={40} height={40} />
               <div>
                 <CardTitle className="text-sm">Excel Básico</CardTitle>
                 <CardDescription>Senai</CardDescription>
@@ -177,7 +177,7 @@ export default function Certification() {
         <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
-              <Image src={`/senai.png`} alt="oi" width={40} height={40} />
+              <Image src={`/senai.png`} alt="Logo" width={40} height={40} />
               <div>
                 <CardTitle className="text-sm">Estilos de Gestão e Liderança </CardTitle>
                 <CardDescription>Senai</CardDescription>
@@ -190,7 +190,7 @@ export default function Certification() {
         <Card className="w-94 sm:w-96">
           <CardHeader>
             <div className="flex justify-beetween gap-2">
-              <Image src={`/senai.png`} alt="oi" width={40} height={40} />
+              <Image src={`/senai.png`} alt="Logo" width={40} height={40} />
               <div>
                 <CardTitle className="text-sm"> Por dentro da segurança cibernética</CardTitle>
                 <CardDescription>Senai</CardDescription>
@@ -204,7 +204,7 @@ export default function Certification() {
           <CardHeader>
             <div className="flex justify-beetween gap-2">
               <div className="w-10 h-10">
-                <Image src={`/senai.png`} alt="oi" width={40} height={40} />
+                <Image src={`/senai.png`} alt="Logo" width={40} height={40} />
               </div>{' '}
               <div>
                 <CardTitle className="text-sm">Tecnologia da Informação e comunicação</CardTitle>

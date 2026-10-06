@@ -45,9 +45,10 @@ const skills = [
     title: 'tools.3',
 
     items: [
-      ['branding.svg', 'Branding', '#D1F6CA'],
       ['marketing.svg', 'Marketing Digital', '#ADD8E6'],
       ['idea.svg', 'Storytelling', '#FFE7F4'],
+      ['branding.svg', 'CRM', '#D1F6CA'],
+      ['branding.svg', 'Branding', '#D1F6CA'],
       ['branding.svg', 'Design Criativo', '#D1F6CA'],
       ['icon1.png', 'Redes sociais', '#ADD8E6'],
       ['foguete.png', 'Growth Marketing', '#D1F6CA'],
