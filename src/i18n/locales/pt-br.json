@@ -4,7 +4,7 @@
     "language": "pt-BR",
     "title": "Julia Paiva",
     "subtitle": "Bem-vindo(a) ao meu perfil",
-    "area": "Tecnologia | Comunicação",
+    "area": "Tecnologia & Comunicação mercadológica",
     "description": "Desenvolvedora Front-end especializada em React, Next.js, TypeScript e Tailwind CSS. Conheça meus projetos e entre em contato."
   },
   "profile": {
@@ -154,9 +154,10 @@
     },
     "planned": {
       "degree": {
-        "data": "Janeiro 2027 - Dezembro 2030",
+        "data": "Outubro 2026 - Dezembro 2028",
         "title": "Graduação - Marketing",
-        "location": "Fatec"
+        "location": "SENAC",
+        "description": "Formação voltada à gestão de estratégias de mercado, análise de comportamento do consumidor, posicionamento de marcas, planejamento de campanhas, pesquisa de mercado e desenvolvimento de ações de comunicação e marketing."
       },
       "exchange": {
         "data": "Julho 2028 - Setembro 2028",
@@ -205,20 +206,14 @@
       "rta_p2": "Neste projeto, o objetivo era simular um acesso não autorizado às instalações e avaliar vulnerabilidades no prédio e no comportamento dos colaboradores.",
       "contrib_before": "Além das minhas entregas já esperadas, uma das minhas principais contribuições ocorreu durante um ",
       "contrib_after": ". Diante das dificuldades enfrentadas pelo Pentester Sênior em uma etapa do projeto, me ofereci para conduzir a ação de Engenharia Social. A execução foi bem-sucedida, permitindo a conclusão da avaliação e garantindo resultados para a entrega à liderança. Segundo o próprio responsável técnico, essa contribuição foi essencial para que o projeto pudesse ser finalizado.",
-      "badges": [
-        "Proatividade",
-        "Iniciativa"
-      ],
+      "badges": ["Proatividade", "Iniciativa"],
       "tools_list": "Darktrace • Ivanti • Privacy Tools • Kali Linux • Cisco",
       "learned_list": "LGPD • Pentest • Phishing • Engenharia Social • Segurança da Informação • Privacidade e Proteção de Dados • Gestão de Vulnerabilidades • Análise de Riscos • Resposta a Incidentes • Red Team Assessment (RTA) • Blue Team • Monitoramento de Segurança • Detecção de Ameaças • Análise de Logs • Segurança de Redes • TCP/IP • DNS • DHCP • Firewall • VPN • Controle de Acessos • Segmentação de Redes • Linux • Processos e Serviços • Segurança Física"
     },
     "visualmix": {
       "contrib_intro": "Atuei no time de Inovação e Desenvolvimento da empresa, onde tive a oportunidade de criar e apresentar aplicações web como soluções para melhorar processos internos. Entre as minhas contribuições, desenvolvi a ferramenta RDV, uma aplicação que impacta diretamente os setores de Implantação e Administração da empresa.",
       "contrib_rdv": "O RDV foi desenvolvido para facilitar o gerenciamento dos custos relacionados a viagens corporativas. A ferramenta permite registrar e organizar notas e gastos realizados durante a viagem, além de reunir os comprovantes em um único lugar. Ao final, é possível exportar os comprovantes e gerar automaticamente uma planilha com as informações organizadas, facilitando o envio e a análise dos dados pelo setor administrativo.",
-      "badges": [
-        "Inovação",
-        "Automação"
-      ],
+      "badges": ["Inovação", "Automação"],
       "tools_list": "React • Node.js • TypeScript • Tailwind CSS • Figma • Git • VS Code • Postman",
       "libs_list": "React Hooks • Props • State • Context API • React Router • APIs REST • Axios • Fetch API • Zod • Zustand • React Hook Form • shadcn/ui • Lucide React • Clean Architecture • TypeScript • Git • Versionamento de Código • Consumo de APIs • JSON • HTTP • CRUD • Autenticação • Validação de Formulários • Gerenciamento de Estado • Componentes Reutilizáveis"
     }
@@ -242,7 +237,8 @@
   },
   "activities": {
     "categories": {
-      "all": "Todas", "courses": "Cursos",
+      "all": "Todas",
+      "courses": "Cursos",
       "volunteering": "Voluntariado",
       "talk": "Palestra",
       "extracurricular": "Extracurricular",

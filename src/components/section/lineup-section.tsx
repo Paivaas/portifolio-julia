@@ -30,6 +30,9 @@ export default function ExperienceTimeline() {
         <Reveal>
           <Experience4></Experience4>
         </Reveal>
+        <Reveal>
+          <Experience6></Experience6>
+        </Reveal>
       </div>
     </section>
   );
