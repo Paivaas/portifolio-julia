@@ -1,98 +1,83 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Badge } from '@/components/ui/badge';
-import {
-  Card,
-  CardAction,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
+import Certification from '@/components/section/certification-section';
+import { Card, CardAction, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Image from 'next/image';
+import { IMG } from '@/lib/images';
 
+// Título e descrição vêm das traduções: activities.items.<id>.title / .description
+// A categoria vem de activities.categories.<category>
 const activities = [
   {
-    title: 'Coordenação de voluntários',
-    organization: 'Fluxo Sem Tabu',
-    logo: '/certification/fluxo.jpg',
-    banner: '/fluxoBANNER.png',
-    category: 'Voluntariado',
+    id: 'fluxo',
+    org: 'Fluxo Sem Tabu',
+    logo: IMG.logos.fluxo,
+    banner: IMG.activities.fluxo,
+    category: 'volunteering',
     badgeColor: 'bg-pink-50 text-pink-700 dark:bg-pink-950 dark:text-pink-300',
-    description:
-      'Atuação voluntária na ABCD Nossa Casa, em ação promovida pela ONG Fluxo Sem Tabu. Auxiliei na gestão dos voluntários e na condução de dinâmicas educativas com crianças, incentivando o respeito, os limites e o trabalho em equipe.',
   },
   {
-    title: 'Habilidades para o Futuro do Trabalho na Era da IA',
-    organization: 'SENAC',
-    logo: '/certification/senac.png',
-    banner: '/palesytraSENAC.png',
-    category: 'Palestra',
+    id: 'senac_talk',
+    org: 'SENAC',
+    logo: IMG.logos.senac,
+    banner: IMG.activities.senacTalk,
+    category: 'talk',
     badgeColor: 'bg-orange-50 text-orange-700 dark:bg-orange-950 dark:text-orange-300',
-    description:
-      'Participação em palestra sobre as transformações do mercado de trabalho, as competências do futuro e o impacto da inteligência artificial nas profissões.',
   },
   {
-    title: 'Marketing Day',
-    organization: 'Fundação Getulio Vargas (FGV)',
-    logo: '/fgv.png',
-    banner: '/palestraFGV.png',
-    category: 'Palestra',
+    id: 'fgv',
+    org: 'Fundação Getulio Vargas (FGV)',
+    logo: IMG.logos.fgv,
+    banner: IMG.activities.fgv,
+    category: 'talk',
     badgeColor: 'bg-orange-50 text-orange-700 dark:bg-orange-950 dark:text-orange-300',
-    description:
-      'Participação em evento sobre o impacto da inteligência artificial no marketing, explorando tendências, automação e as interações entre pessoas e tecnologia.',
   },
   {
-    title: 'Participação no NPAADC',
-    organization: 'SENAI',
-    logo: '/certification/senai.png',
-    banner: '/hs-imagem3.jpg',
-    category: 'Extracurricular',
+    id: 'npaadc',
+    org: 'SENAI',
+    logo: IMG.logos.senai,
+    banner: IMG.hackathon.process,
+    category: 'extracurricular',
     badgeColor: 'bg-red-50 text-red-700 dark:bg-red-950 dark:text-red-300',
-    description:
-      'Participação em iniciativas de prevenção e conscientização dos alunos sobre possíveis situações de risco, contribuindo para um ambiente escolar mais seguro.',
   },
   {
-    title: 'Desafio de Ideias',
-    organization: 'SENAI & HP',
-    logo: '/certification/hp.png',
-    banner: '/hs-imagem1.jpg',
-    category: 'Hackathon',
+    id: 'idea_challenge',
+    org: 'SENAI & HP',
+    logo: IMG.logos.hp,
+    banner: IMG.hackathon.group,
+    category: 'hackathon',
     badgeColor: 'bg-blue-50 text-blue-700 dark:bg-blue-950 dark:text-blue-300',
-    description:
-      'Participação em um desafio de inovação, com foco na criação de ideias e soluções para problemas reais.',
   },
   {
-    title: 'Cyber Leader',
-    organization: 'SESI',
-    logo: '/certification/sesi.png',
-    banner: '/hs-imagem1.jpg',
-    category: 'Extracurricular',
+    id: 'cyber_leader',
+    org: 'SESI',
+    logo: IMG.logos.sesi,
+    banner: IMG.hackathon.group,
+    category: 'extracurricular',
     badgeColor: 'bg-red-50 text-red-700 dark:bg-red-950 dark:text-red-300',
-    description:
-      'Participação em um desafio de inovação, com foco na criação de ideias e soluções para problemas reais.',
   },
   {
-    title: 'Representante de turma',
-    organization: 'SENAI',
-    logo: '/certification/senai.png',
-    banner: '/hs-imagem1.jpg',
-    category: 'Extracurricular',
+    id: 'class_rep',
+    org: 'SENAI',
+    logo: IMG.logos.senai,
+    banner: IMG.hackathon.group,
+    category: 'extracurricular',
     badgeColor: 'bg-red-50 text-red-700 dark:bg-red-950 dark:text-red-300',
-    description:
-      'Participação em um desafio de inovação, com foco na criação de ideias e soluções para problemas reais.',
   },
 ];
 
-export default function Activity() {
-  const [selectedCategory, setSelectedCategory] = useState('Todas');
+// 'courses' é uma categoria extra: mostra os cursos/certificações em vez dos cards de atividades
+const categories = ['all', 'courses', ...new Set(activities.map((activity) => activity.category))];
 
-  const categories = ['Todas', ...new Set(activities.map((activity) => activity.category))];
+export default function Activity() {
+  const { t } = useTranslation();
+  const [selectedCategory, setSelectedCategory] = useState('all');
 
   const filteredActivities =
-    selectedCategory === 'Todas'
+    selectedCategory === 'all' || selectedCategory === 'courses'
       ? activities
       : activities.filter((activity) => activity.category === selectedCategory);
 
@@ -112,62 +97,69 @@ export default function Activity() {
                 : 'border-border bg-background hover:bg-muted'
             }`}
           >
-            {category}
+            {t(`activities.categories.${category}`)}
           </button>
         ))}
       </div>
 
-      {/* Cards filtrados */}
+      {selectedCategory === 'courses' ? (
+        <Certification />
+      ) : (
       <div className="grid w-full grid-cols-1 justify-items-center gap-4 sm:grid-cols-2 xl:grid-cols-3">
-        {filteredActivities.map((activity) => (
-          <Card key={activity.title} className="w-full max-w-96 overflow-hidden">
-            <CardHeader>
-              <div className="flex min-w-0 items-center gap-3">
-                <Image
-                  src={activity.logo}
-                  alt={`Logo ${activity.organization}`}
-                  width={40}
-                  height={40}
-                  className="shrink-0 object-contain"
-                />
+        {filteredActivities.map((activity) => {
+          const title = t(`activities.items.${activity.id}.title`);
 
-                <div className="min-w-0">
-                  <CardTitle className="text-sm">{activity.title}</CardTitle>
-                  <CardDescription>{activity.organization}</CardDescription>
+          return (
+            <Card key={activity.id} className="w-full max-w-96 overflow-hidden">
+              <CardHeader>
+                <div className="flex min-w-0 items-center gap-3">
+                  <Image
+                    src={activity.logo}
+                    alt={t('activities.logo_alt', { org: activity.org })}
+                    width={40}
+                    height={40}
+                    className="shrink-0 object-contain"
+                  />
+
+                  <div className="min-w-0">
+                    <CardTitle className="text-sm">{title}</CardTitle>
+                    <CardDescription>{activity.org}</CardDescription>
+                  </div>
                 </div>
-              </div>
 
-              <CardAction>
-                <Badge className={activity.badgeColor}>{activity.category}</Badge>
-              </CardAction>
-            </CardHeader>
+                <CardAction>
+                  <Badge className={activity.badgeColor}>
+                    {t(`activities.categories.${activity.category}`)}
+                  </Badge>
+                </CardAction>
+              </CardHeader>
 
-            <CardContent>
-              <div className="relative h-42 w-full overflow-hidden rounded-lg">
-                <Image
-                  src={activity.banner}
-                  alt={`Imagem da atividade ${activity.title}`}
-                  fill
-                  sizes="(max-width: 640px) 100vw, 384px"
-                  className="object-cover transition-transform duration-300 hover:scale-105"
-                />
-              </div>
+              <CardContent>
+                <div className="relative h-42 w-full overflow-hidden rounded-lg">
+                  <Image
+                    src={activity.banner}
+                    alt={t('activities.banner_alt', { title })}
+                    fill
+                    sizes="(max-width: 640px) 100vw, 384px"
+                    className="object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                </div>
 
-              <div className="bg-accent/20 m-2  border-t">
-                <p className="text-sm leading-relaxed text-muted-foreground">
-                  {activity.description}
-                </p>
-              </div>
-            </CardContent>
-          </Card>
-        ))}
+                <div className="bg-accent/20 m-2  border-t">
+                  <p className="text-sm leading-relaxed text-muted-foreground">
+                    {t(`activities.items.${activity.id}.description`)}
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          );
+        })}
       </div>
+      )}
 
       {/* Mensagem caso não existam resultados */}
-      {filteredActivities.length === 0 && (
-        <p className="text-sm text-muted-foreground">
-          Nenhuma atividade encontrada nessa categoria.
-        </p>
+      {selectedCategory !== 'courses' && filteredActivities.length === 0 && (
+        <p className="text-sm text-muted-foreground">{t('activities.empty')}</p>
       )}
     </section>
   );

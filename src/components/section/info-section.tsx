@@ -1,14 +1,15 @@
 'use client';
-import 'bootstrap-icons/font/bootstrap-icons.css';
+import dynamic from 'next/dynamic';
 import { useTranslation } from 'react-i18next';
 
 import AboutMe from '@/components/section/aboutme-section';
-import Tools from '@/components/section/tools-section';
 import Reveal from '@/components/ui/Reveal';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import AppGameTeste from '@/components/section/projects/PageGame';
-import Certification from '@/components/section/certification-section';
-import Activity from '@/components/section/activity-section';
+// import AppGameTeste from '@/components/section/projects/PageGame';
+
+// Abas que não aparecem na primeira dobra são carregadas só quando necessárias (code splitting)
+const Tools = dynamic(() => import('@/components/section/tools-section'));
+const Activity = dynamic(() => import('@/components/section/activity-section'));
 
 export default function Info() {
   const { t } = useTranslation();
@@ -17,13 +18,12 @@ export default function Info() {
     <div className="flex justify-center items-center gap-12">
       <Tabs defaultValue="aboutme" className=" items-center ">
         <TabsList variant="line" className="bg-white flex gap-12 ">
-          <TabsTrigger value="aboutme"> {t('categories.1')} </TabsTrigger>
-          <TabsTrigger value="couses">Cursos</TabsTrigger>
-          <TabsTrigger value="tools">{t('categories.2')}</TabsTrigger>
-          <TabsTrigger value="activity">Atividades</TabsTrigger>
-
-          {/* <TabsTrigger value="projects">{t('categories.3')}</TabsTrigger> */}
+          <TabsTrigger value="aboutme">{t('tabs.about')}</TabsTrigger>
+          <TabsTrigger value="tools">{t('tabs.tools')}</TabsTrigger>
+          <TabsTrigger value="activity">{t('tabs.activities')}</TabsTrigger>
+          {/* <TabsTrigger value="projects">{t('tabs.projects')}</TabsTrigger> */}
         </TabsList>
+
         <TabsContent value="aboutme">
           <Reveal>
             <AboutMe />
@@ -36,25 +36,17 @@ export default function Info() {
           </Reveal>
         </TabsContent>
 
-        <TabsContent value="couses">
-          <Reveal>
-            <Certification />{' '}
-          </Reveal>
-        </TabsContent>
-
         <TabsContent value="activity">
           <Reveal>
-            <Activity />{' '}
+            <Activity />
           </Reveal>
         </TabsContent>
 
-        <TabsContent value="projects">
+        {/* <TabsContent value="projects">
           <Reveal>
-            {/* <Projects /> */}
-
             <AppGameTeste />
           </Reveal>
-        </TabsContent>
+        </TabsContent> */}
       </Tabs>
     </div>
   );

@@ -7,15 +7,12 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/component
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { playSound } from '@/lib/sounds';
 
 export function SenacDetails() {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
 
-  function soundOpenCollapsible() {
-    const audio = new Audio('/sounds/sound-bubble.mp3');
-    audio.play();
-  }
 
   return (
     <Collapsible
@@ -24,13 +21,13 @@ export function SenacDetails() {
       className="flex flex-col justify-end items-start sm:items-end sm:mt-4 mt-2 relative sm:bottom-9 "
     >
       <CollapsibleTrigger
-        onClick={soundOpenCollapsible}
+        onClick={() => playSound('bubble')}
         className="flex items-center gap-2  font-medium text-end cursor-pointer"
       >
         {isOpen ? (
-          <p className="text-[#a19c9e]">Ver cursos</p>
+          <p className="text-[#a19c9e]">{t('line-up.senac.view_courses')}</p>
         ) : (
-          <p className="text-black">Ver cursos</p>
+          <p className="text-black">{t('line-up.senac.view_courses')}</p>
         )}
         {isOpen ? (
           <ChevronsDownUp className="text-[#a19c9e]" size={16} />
@@ -45,26 +42,25 @@ export function SenacDetails() {
             <CardContent>
               <Tabs defaultValue="account">
                 <TabsList>
-                  <TabsTrigger value="account">Marketing | Comunicação</TabsTrigger>
-                  <TabsTrigger value="password">Tecnologia</TabsTrigger>
+                  <TabsTrigger value="account">{t('line-up.senac.tab_marketing')}</TabsTrigger>
+                  <TabsTrigger value="password">{t('line-up.senac.tab_tech')}</TabsTrigger>
                 </TabsList>
                 <TabsContent value="account">
                   <p>
-                    {' '}
-                    Storytelling e Storydoing como Estratégia de Comunicação{' '}
+                    {t('certifications.storytelling')}{' '}
                     <span className="text-black/40">• SENAC</span>
                   </p>
                   <p>
-                    Analista de Marketing em Mídias Sociais{' '}
+                    {t('certifications.social_analyst')}{' '}
                     <span className="text-black/40">• SENAC</span>
                   </p>
 
                   <p>
-                    Estratégia de growth marketing{' '}
+                    {t('certifications.growth')}{' '}
                     <span className="text-black/40">• Google/Santander</span>
                   </p>
                   <p>
-                    IA Prática para o Marketing{' '}
+                    {t('certifications.ai_marketing')}{' '}
                     <span className="text-black/40">• Google/Santander</span>
                   </p>
 
@@ -73,7 +69,7 @@ export function SenacDetails() {
                 <span className="text-black/40"> • SENAC</span>
               </p> */}
                 </TabsContent>
-                <TabsContent value="password">Change your password here.</TabsContent>
+                <TabsContent value="password">{/* TODO: cursos de tecnologia */}</TabsContent>
               </Tabs>
             </CardContent>
           </Card>

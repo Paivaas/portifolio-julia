@@ -1,60 +1,99 @@
-import Image from 'next/image';
+import {
+  Bot,
+  Braces,
+  Brush,
+  Bug,
+  Code,
+  CodeXml,
+  Component,
+  Database,
+  Eye,
+  FileCode,
+  Fish,
+  Flame,
+  Gavel,
+  GitBranch,
+  Globe,
+  Layers,
+  Lightbulb,
+  Lock,
+  Megaphone,
+  MessagesSquare,
+  Network,
+  Palette,
+  PenLine,
+  Radar,
+  Rocket,
+  Router,
+  Send,
+  Share2,
+  Shield,
+  ShieldCheck,
+  Smartphone,
+  Target,
+  Terminal,
+  Users,
+  Wind,
+  Wrench,
+  type LucideIcon,
+} from 'lucide-react';
 import { RippleButton } from '@/components/ui/ripple-button';
 import { useTranslation } from 'react-i18next';
 
-const skills = [
+// Ícones SVG inline (lucide): sem requisições de rede, sem decodificar imagens.
+type Skill = [icon: LucideIcon, name: string, color: string];
+
+const skills: { title: string; items: Skill[] }[] = [
   {
     title: 'tools.2',
     items: [
-      ['darktrace.svg', 'Darktrace', '#D1F6CA'],
-      ['ivanti.svg', 'Ivanti', '#ADD8E6'],
-      ['privacytools.svg', 'Privacy Tools', '#FFE7F4'],
-      ['kalilinux.svg', 'Kali Linux', '#D1F6CA'],
-      ['LGPD.svg', 'LGPD', '#ADD8E6'],
-      ['pentest.svg', 'Pentest', '#D1F6CA'],
-      ['phising.svg', 'Phishing', '#FFE7F4'],
+      [Radar, 'Darktrace', '#D1F6CA'],
+      [Wrench, 'Ivanti', '#ADD8E6'],
+      [Eye, 'Privacy Tools', '#FFE7F4'],
+      [Terminal, 'Kali Linux', '#D1F6CA'],
+      [Gavel, 'LGPD', '#ADD8E6'],
+      [Bug, 'Pentest', '#D1F6CA'],
+      [Fish, 'Phishing', '#FFE7F4'],
 
-      ['redes.svg', 'Redes', '#ADD8E6'],
-      ['firewall.svg', 'Firewall', '#D1F6CA'],
-      ['cisco.svg', 'Cisco', '#D1F6CA'],
+      [Network, 'tools.items.networks', '#ADD8E6'],
+      [Flame, 'Firewall', '#D1F6CA'],
+      [Router, 'Cisco', '#D1F6CA'],
 
-      ['rta.svg', 'RTA', '#FFE7F4'],
+      [ShieldCheck, 'RTA', '#FFE7F4'],
     ],
   },
   {
     title: 'tools.1',
     items: [
-      ['react.svg', 'React', '#ADD8E6'],
-      ['node.svg', 'Node', '#D1F6CA'],
-      ['typescript.svg', 'Typescript', '#ADD8E6'],
-      ['tailwind.svg', 'Tailwind', '#ADD8E6'],
-      ['figma.svg', 'Figma', '#FFE7F4'],
-      ['git.svg', 'Git', '#FFE7F4'],
-      ['vscode.svg', 'VS code', '#D1F6CA'],
+      [Component, 'React', '#ADD8E6'],
+      [CodeXml, 'Node.js', '#D1F6CA'],
+      [Braces, 'TypeScript', '#ADD8E6'],
+      [Wind, 'Tailwind', '#ADD8E6'],
+      [Palette, 'Figma', '#FFE7F4'],
+      [GitBranch, 'Git', '#FFE7F4'],
+      [Code, 'VS Code', '#D1F6CA'],
 
-      ['androidstudio.svg', 'Andoid studio', '#ADD8E6'],
-      ['js.svg', 'JavaScript', '#FFE7F4'],
-      ['html.svg', 'HTML', '#FFE7F4'],
-      ['css.svg', 'CSS', '#D1F6CA'],
-      ['mysql.svg', 'MySql', '#D1F6CA'],
-      ['postman.svg', 'Postman', '#D1F6CA'],
+      [Smartphone, 'Android Studio', '#ADD8E6'],
+      [FileCode, 'JavaScript', '#FFE7F4'],
+      [Globe, 'HTML', '#FFE7F4'],
+      [Layers, 'CSS', '#D1F6CA'],
+      [Database, 'MySQL', '#D1F6CA'],
+      [Send, 'Postman', '#D1F6CA'],
     ],
   },
-
   {
     title: 'tools.3',
-
     items: [
-      ['marketing.svg', 'Marketing Digital', '#ADD8E6'],
-      ['idea.svg', 'Storytelling', '#FFE7F4'],
-      ['branding.svg', 'CRM', '#D1F6CA'],
-      ['branding.svg', 'Branding', '#D1F6CA'],
-      ['branding.svg', 'Design Criativo', '#D1F6CA'],
-      ['icon1.png', 'Redes sociais', '#ADD8E6'],
-      ['foguete.png', 'Growth Marketing', '#D1F6CA'],
-      ['idea.svg', 'Marketing de Conteúdo', '#FFE7F4'],
-      ['marketing.svg', 'Comunicação', '#D1F6CA'],
-      ['marketing.png', 'Estratégia de Marketing', '#FFE7F4'],
+      [Megaphone, 'tools.items.digital_marketing', '#ADD8E6'],
+      [PenLine, 'Storytelling', '#FFE7F4'],
+      [Users, 'CRM', '#D1F6CA'],
+      [Shield, 'Branding', '#D1F6CA'],
+      [Brush, 'tools.items.creative_design', '#D1F6CA'],
+      [Share2, 'tools.items.social', '#ADD8E6'],
+      [Rocket, 'Growth Marketing', '#D1F6CA'],
+      [Lightbulb, 'tools.items.content', '#FFE7F4'],
+      [MessagesSquare, 'tools.items.communication', '#D1F6CA'],
+      [Target, 'tools.items.strategy', '#FFE7F4'],
     ],
   },
 ];
@@ -70,14 +109,18 @@ export default function Tools() {
         >
           <h1>{t(skill.title)}</h1>
           <div className="flex gap-2 flex-wrap sm:w-100 w-fit justify-center pb-6">
-            {skill.items.map(([icon, name, color]) => (
-              <RippleButton key={name} className="rounded-full" rippleColor={color}>
-                <div className="flex gap-2 items-center">
-                  <Image src={`/tools/${icon}`} alt={name} width={20} height={20} />
-                  <p>{name}</p>
-                </div>
-              </RippleButton>
-            ))}
+            {skill.items.map(([Icon, name, color]) => {
+              // Itens com chave 'tools.items.*' são traduzidos; os demais são nomes próprios
+              const label = name.startsWith('tools.') ? t(name) : name;
+              return (
+                <RippleButton key={name} className="rounded-full" rippleColor={color}>
+                  <div className="flex gap-2 items-center">
+                    <Icon size={18} aria-hidden="true" className="shrink-0" />
+                    <p>{label}</p>
+                  </div>
+                </RippleButton>
+              );
+            })}
           </div>
         </section>
       ))}

@@ -4,7 +4,6 @@ import Experience3 from '@/components/section/lineup-experience/3';
 import Experience4 from '@/components/section/lineup-experience/4';
 import Experience5 from '@/components/section/lineup-experience/5';
 import Experience6 from '@/components/section/lineup-experience/6';
-import ExperienceSenac from '@/components/section/lineup-experience/7ExperienceSenac';
 
 import Reveal from '@/components/ui/Reveal';
 import { useTranslation } from 'react-i18next';
@@ -30,9 +29,6 @@ export default function ExperienceTimeline() {
         </Reveal>
         <Reveal>
           <Experience4></Experience4>
-        </Reveal>
-        <Reveal>
-          <ExperienceSenac />
         </Reveal>
       </div>
     </section>

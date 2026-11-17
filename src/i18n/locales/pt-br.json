@@ -4,7 +4,8 @@
     "language": "pt-BR",
     "title": "Julia Paiva",
     "subtitle": "Bem-vindo(a) ao meu perfil",
-    "area": "Tecnologia | Comunicação"
+    "area": "Tecnologia | Comunicação",
+    "description": "Desenvolvedora Front-end especializada em React, Next.js, TypeScript e Tailwind CSS. Conheça meus projetos e entre em contato."
   },
   "profile": {
     "name": "Currículo online",
@@ -14,37 +15,27 @@
     "badge1": "2 anos trabalhando com TI",
     "badge2": "+4 anos estudando TI",
     "badge3": "Comunicação & marketing",
-
     "title": "Olá, eu sou a Julia 👋",
     "text": {
-      "0": "Minha trajetória na tecnologia começou aos 16 anos, quando iniciei o curso técnico em Desenvolvimento de Sistemas. Atualmente, sou graduanda em Gestão da Tecnologia da Informação e concilio minha formação com meus estudos na área de Comunicação. Tenho experiência com desenvolvimento Front-end e Cibersegurança, atualmente atuando principalmente com React, TypeScript e Tailwind CSS.",
-
-      "1": "Descobri meu interesse pela área de Comunicação em 2026, principalmente pela parte de Comunicação Mercadológica. Desde então, comecei a estudar Marketing pelo SENAC e venho buscando aprender cada vez mais sobre a área. Hoje, quero aprofundar meus conhecimentos, desenvolver novas habilidades e me preparar para as oportunidades no mercado de trabalho.",
-
-      "11": "Me chamo Julia Paiva, tenho ",
-      "12": "20 anos e sou de São Paulo.",
-      "13": " Iniciei meus estudos na área da tecnologia aos 16 anos com o curso técnico em ",
-      "14": "Desenvolvimento de Sistemas",
-      "15": " e dei sequência quando optei por cursar ",
-      "16": "Gestão da Tecnologia da Informação.",
-      "17": " Apesar de ter uma boa base e experiências práticas na área analítica, ",
-      "18": "meu perfil é extremamente comunicativo e, acima de tudo, criativo.",
-      "19": " Atualmente curso Marketing ",
-      "10": "para complementar meu perfil com uma visão mais estratégica, voltada para comunicação."
-    }
+      "0": "Minha trajetória na tecnologia começou aos 16 anos, quando iniciei o curso técnico em Desenvolvimento de Sistemas. Atualmente, sou graduanda em Gestão da Tecnologia da Informação e concilio minha formação com meus estudos na área de Comunicação. Tenho experiência com desenvolvimento Front-end e Cibersegurança, atualmente atuando principalmente com React, Next.js, TypeScript e Tailwind CSS.",
+      "1": "Descobri meu interesse pela área de Comunicação em 2026, principalmente pela parte de Comunicação Mercadológica. Desde então, comecei a estudar Marketing pelo SENAC e venho buscando aprender cada vez mais sobre a área. Hoje, quero aprofundar meus conhecimentos, desenvolver novas habilidades e me preparar para as oportunidades no mercado de trabalho."
+    },
+    "photo_alt": "Foto de perfil de Julia Paiva"
   },
   "tools": {
     "1": "Desenvolvimento de sistemas",
     "2": "Segurança e privacidade",
-    "3": "Marketing"
+    "3": "Marketing",
+    "items": {
+      "networks": "Redes",
+      "social": "Redes sociais",
+      "digital_marketing": "Marketing Digital",
+      "content": "Marketing de Conteúdo",
+      "creative_design": "Design Criativo",
+      "communication": "Comunicação",
+      "strategy": "Estratégia de Marketing"
+    }
   },
-
-  "categories": {
-    "1": "Sobre mim",
-    "2": "Ferramentas",
-    "3": "Mini jogo"
-  },
-
   "projects": {
     "about": "Sobre",
     "view-project": "Ver projeto",
@@ -59,7 +50,8 @@
         "5": "Componentes shadcn",
         "6": "Responsivo"
       }
-    }
+    },
+    "banner_alt": "Capa do projeto Gerenciador de Marmitas"
   },
   "line-up": {
     "commun": {
@@ -68,19 +60,19 @@
       "assignments2": "Ver mais detalhes"
     },
     "1": {
-      "data": "2023 Janeiro -2024 Dezembro",
+      "data": "Janeiro 2023 - Dezembro 2024",
       "title": "Curso Técnico - Desenvolvimento de Sistemas",
       "location": "SENAI",
       "description": "Formação técnica com foco em lógica de programação, desenvolvimento de software e fundamentos de tecnologia voltados ao mercado de trabalho."
     },
     "2": {
-      "data": "2025 Janeiro - Cursando",
+      "data": "Janeiro 2025 - Cursando",
       "title": "Graduação - Gestão da Tecnologia da Informação",
       "location": "Universidade Paulista",
       "description": "Graduação focada na gestão de recursos tecnológicos, sistemas de informação e projetos de TI nas organizações."
     },
     "3": {
-      "data": "2025 Abril - 2026 Abril",
+      "data": "Abril 2025 - Abril 2026",
       "title": "Aprendiz em Cybersecurity",
       "location": "Keeggo",
       "description": "Atuação como aprendiz na área de Cibersegurança, com foco em privacidade e proteção de dados, análise de vulnerabilidades e boas práticas de segurança da informação.",
@@ -92,12 +84,12 @@
         },
         "2": {
           "title": "Segurança Ofensiva",
-          "description": "Participei no planejamento, execução e análise de campanhas internas de phishing, ajduadno na conscientização dos colaboradores internos. Prestei suporte às atividades de Red Team, auxiliando na identificação de vulnerabilidades externas, análise de riscos e testes de segurança RTA."
+          "description": "Participei do planejamento, execução e análise de campanhas internas de phishing, ajudando na conscientização dos colaboradores. Prestei suporte às atividades de Red Team, auxiliando na identificação de vulnerabilidades externas, análise de riscos e testes de segurança RTA."
         }
       }
     },
     "4": {
-      "data": "2026 Abril - Atual",
+      "data": "Abril 2026 - Atual",
       "title": "Desenvolvedora Front-end Júnior",
       "location": "Visual Mix",
       "description": "Experiência profissional no desenvolvimento de interfaces web modernas e responsivas, com forte foco na experiência do usuário para o setor varejista.",
@@ -121,11 +113,10 @@
       "TabsTrigger1": "Desafio",
       "TabsTrigger2": "Processo",
       "TabsTrigger3": "Resultado",
-      "image-description1": "Coffe talk: Ricardo Kamel Managing Director, HP",
+      "image-description1": "Coffee Talk: Ricardo Kamel, Managing Director da HP",
       "image-description2": "Processo de organização e criação do grupo",
       "image-description3": "Foto em grupo com todos os participantes",
-      "image-description4": "Avaliadora: Regina Higa Operations Manager,HP",
-
+      "image-description4": "Avaliadora: Regina Higa, Operations Manager da HP",
       "initial": {
         "tag1": "Inovação",
         "tag2": "Trabalho em equipe",
@@ -135,15 +126,42 @@
       },
       "process": {
         "tag1": "Planejamento",
-        "tag2": "Coocriação",
+        "tag2": "Cocriação",
         "1": "Foram quatro dias intensos de produção, seguidos por um dia dedicado à apresentação do projeto. Durante esse período, passamos por diferentes etapas de planejamento, pesquisa e desenvolvimento, organizando mapas de ideias, definindo prioridades e compartilhando conhecimentos entre os integrantes do grupo.",
         "2": "Ao longo de todo o processo, também contamos com o acompanhamento de representantes da HP e dos professores, que estiveram presentes para orientar, acompanhar nossa evolução e contribuir com diferentes perspectivas."
       },
       "final": {
         "tag1": "Conquista",
-        "tag2": "Experiencia",
+        "tag2": "Experiência",
         "1": "Ao final, fomos vencedores, o que nos proporcionou uma experiência ainda mais próxima da HP. Tivemos a oportunidade de conhecer sua fábrica, o centro de reciclagem, as áreas de P&D e os laboratórios, além de participar de um Coffee Talk com Ricardo Kamel, MD da HP Brasil, e seu time de diretores.",
         "2": "Foi uma oportunidade de apresentar nossa ideia, conhecer diferentes áreas da empresa e entender, na prática, como a HP trabalha para desenvolver suas soluções."
+      }
+    },
+    "senac": {
+      "storytelling": {
+        "data": "Agosto 2026 - Cursando",
+        "title": "Curso - Storytelling e Storydoing como Estratégia de Comunicação",
+        "description": "Curso voltado à criação de narrativas para promover pessoas, marcas, produtos ou serviços."
+      },
+      "social": {
+        "data": "Setembro 2026 - Cursando",
+        "title": "Curso - Analista de Marketing em Mídias Sociais",
+        "description": "Curso voltado à criação de conteúdo para redes sociais, uso de ferramentas, estruturação, execução e monitoramento de campanhas de marketing em mídias sociais."
+      },
+      "view_courses": "Ver cursos",
+      "tab_marketing": "Marketing | Comunicação",
+      "tab_tech": "Tecnologia"
+    },
+    "planned": {
+      "degree": {
+        "data": "Janeiro 2027 - Dezembro 2030",
+        "title": "Graduação - Marketing",
+        "location": "Fatec"
+      },
+      "exchange": {
+        "data": "Julho 2028 - Setembro 2028",
+        "title": "Intercâmbio profissionalizante - VET",
+        "location": "Itália / Malta"
       }
     }
   },
@@ -156,6 +174,112 @@
       "title": "Email copiado!",
       "description": "O conteúdo foi enviado para sua área de transferência."
     },
-    "whatsapp-message": "Oi, Julia! Vim através do seu portfólio."
+    "whatsapp-message": "Oi, Julia! Vim através do seu portfólio.",
+    "tabs": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "phone": "Telefone"
+    }
+  },
+  "tabs": {
+    "about": "Sobre mim",
+    "courses": "Cursos",
+    "tools": "Ferramentas",
+    "activities": "Atividades",
+    "projects": "Projetos"
+  },
+  "details": {
+    "tabs": {
+      "duties": "Atribuições",
+      "contributions": "Contribuições",
+      "tools": "Ferramentas"
+    },
+    "tools_used": "Principais ferramentas usadas:",
+    "learned": "Aprendi na prática:",
+    "libs_learned": "Bibliotecas e conceitos aprendidos:",
+    "image_alt": "Imagem da experiência",
+    "keeggo": {
+      "rta_label": "RTA físico",
+      "rta_title": "O que é um RTA físico?",
+      "rta_p1": "RTA físico é uma simulação de ameaças reais para identificar vulnerabilidades na segurança, nos processos e nas pessoas de uma organização.",
+      "rta_p2": "Neste projeto, o objetivo era simular um acesso não autorizado às instalações e avaliar vulnerabilidades no prédio e no comportamento dos colaboradores.",
+      "contrib_before": "Além das minhas entregas já esperadas, uma das minhas principais contribuições ocorreu durante um ",
+      "contrib_after": ". Diante das dificuldades enfrentadas pelo Pentester Sênior em uma etapa do projeto, me ofereci para conduzir a ação de Engenharia Social. A execução foi bem-sucedida, permitindo a conclusão da avaliação e garantindo resultados para a entrega à liderança. Segundo o próprio responsável técnico, essa contribuição foi essencial para que o projeto pudesse ser finalizado.",
+      "badges": [
+        "Proatividade",
+        "Iniciativa"
+      ],
+      "tools_list": "Darktrace • Ivanti • Privacy Tools • Kali Linux • Cisco",
+      "learned_list": "LGPD • Pentest • Phishing • Engenharia Social • Segurança da Informação • Privacidade e Proteção de Dados • Gestão de Vulnerabilidades • Análise de Riscos • Resposta a Incidentes • Red Team Assessment (RTA) • Blue Team • Monitoramento de Segurança • Detecção de Ameaças • Análise de Logs • Segurança de Redes • TCP/IP • DNS • DHCP • Firewall • VPN • Controle de Acessos • Segmentação de Redes • Linux • Processos e Serviços • Segurança Física"
+    },
+    "visualmix": {
+      "contrib_intro": "Atuei no time de Inovação e Desenvolvimento da empresa, onde tive a oportunidade de criar e apresentar aplicações web como soluções para melhorar processos internos. Entre as minhas contribuições, desenvolvi a ferramenta RDV, uma aplicação que impacta diretamente os setores de Implantação e Administração da empresa.",
+      "contrib_rdv": "O RDV foi desenvolvido para facilitar o gerenciamento dos custos relacionados a viagens corporativas. A ferramenta permite registrar e organizar notas e gastos realizados durante a viagem, além de reunir os comprovantes em um único lugar. Ao final, é possível exportar os comprovantes e gerar automaticamente uma planilha com as informações organizadas, facilitando o envio e a análise dos dados pelo setor administrativo.",
+      "badges": [
+        "Inovação",
+        "Automação"
+      ],
+      "tools_list": "React • Node.js • TypeScript • Tailwind CSS • Figma • Git • VS Code • Postman",
+      "libs_list": "React Hooks • Props • State • Context API • React Router • APIs REST • Axios • Fetch API • Zod • Zustand • React Hook Form • shadcn/ui • Lucide React • Clean Architecture • TypeScript • Git • Versionamento de Código • Consumo de APIs • JSON • HTTP • CRUD • Autenticação • Validação de Formulários • Gerenciamento de Estado • Componentes Reutilizáveis"
+    }
+  },
+  "certifications": {
+    "ai_marketing": "IA Prática para o Marketing",
+    "growth": "Estratégia de growth marketing",
+    "creative_design": "Design Criativo: Tipos e formas",
+    "agile": "Gestão ágil de projetos com Scrum e Kanban",
+    "storytelling": "Storytelling e Storydoing como Estratégia de Comunicação",
+    "social_analyst": "Analista de Marketing em Mídias Sociais",
+    "lgpd": "Privacidade e proteção de dados (LGPD)",
+    "social_industry": "Redes Sociais na Indústria",
+    "digital_marketing": "Fundamentos do Marketing Digital",
+    "design_thinking": "Design Thinking",
+    "excel": "Excel Básico",
+    "leadership": "Estilos de Gestão e Liderança",
+    "cyber": "Por dentro da segurança cibernética",
+    "ict": "Tecnologia da Informação e Comunicação",
+    "logo_alt": "Logo {{org}}"
+  },
+  "activities": {
+    "categories": {
+      "all": "Todas", "courses": "Cursos",
+      "volunteering": "Voluntariado",
+      "talk": "Palestra",
+      "extracurricular": "Extracurricular",
+      "hackathon": "Hackathon"
+    },
+    "empty": "Nenhuma atividade encontrada nessa categoria.",
+    "banner_alt": "Imagem da atividade {{title}}",
+    "logo_alt": "Logo {{org}}",
+    "items": {
+      "fluxo": {
+        "title": "Coordenação de voluntários",
+        "description": "Atuação voluntária na ABCD Nossa Casa, em ação promovida pela ONG Fluxo Sem Tabu. Auxiliei na gestão dos voluntários e na condução de dinâmicas educativas com crianças, incentivando o respeito, os limites e o trabalho em equipe."
+      },
+      "senac_talk": {
+        "title": "Habilidades para o Futuro do Trabalho na Era da IA",
+        "description": "Participação em palestra sobre as transformações do mercado de trabalho, as competências do futuro e o impacto da inteligência artificial nas profissões."
+      },
+      "fgv": {
+        "title": "Marketing Day",
+        "description": "Participação em evento sobre o impacto da inteligência artificial no marketing, explorando tendências, automação e as interações entre pessoas e tecnologia."
+      },
+      "npaadc": {
+        "title": "Participação no NPAADC",
+        "description": "Participação em iniciativas de prevenção e conscientização dos alunos sobre possíveis situações de risco, contribuindo para um ambiente escolar mais seguro."
+      },
+      "idea_challenge": {
+        "title": "Desafio de Ideias",
+        "description": "Participação em um desafio de inovação, com foco na criação de ideias e soluções para problemas reais."
+      },
+      "cyber_leader": {
+        "title": "Cyber Leader",
+        "description": "Participação no programa Cyber Leader do SESI."
+      },
+      "class_rep": {
+        "title": "Representante de turma",
+        "description": "Representação da turma junto a professores e coordenação, levando demandas e sugestões dos colegas."
+      }
+    }
   }
 }

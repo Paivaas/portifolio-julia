@@ -10,15 +10,13 @@ import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { IMG } from '@/lib/images';
+import { playSound } from '@/lib/sounds';
 
 export default function HackatonDetails() {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
 
-  function soundOpenCollapsible() {
-    const audio = new Audio('/sounds/sound-bubble.mp3');
-    audio.play();
-  }
 
   return (
     <Collapsible
@@ -27,7 +25,7 @@ export default function HackatonDetails() {
       className="flex flex-col  sm:justify-end sm:items-end mt-2 sm:mt-6 sm:relative sm:bottom-11 "
     >
       <CollapsibleTrigger
-        onClick={soundOpenCollapsible}
+        onClick={() => playSound('bubble')}
         className="flex items-center gap-2 text-brown-800 font-medium text-end cursor-pointer"
       >
         {isOpen ? (
@@ -54,10 +52,11 @@ export default function HackatonDetails() {
             <div className="grid grid-cols-2 gap-2 ">
               <div className="group relative overflow-hidden rounded-sm">
                 <Image
-                  src="/hs-imagem.jpg"
-                  alt="Imagem da experiência"
+                  src={IMG.hackathon.coffeeTalk}
+                  alt={t('line-up.5.image-description1')}
                   width={800}
                   height={400}
+                  sizes="(min-width: 768px) 240px, 140px"
                   className="w-full h-30 rounded-sm object-cover"
                 />
 
@@ -68,10 +67,11 @@ export default function HackatonDetails() {
 
               <div className="group relative overflow-hidden rounded-sm">
                 <Image
-                  src="/hs-imagem3.jpg"
-                  alt="Imagem da experiência"
+                  src={IMG.hackathon.process}
+                  alt={t('line-up.5.image-description2')}
                   width={800}
                   height={400}
+                  sizes="(min-width: 768px) 240px, 140px"
                   className="w-full h-30 rounded-sm object-cover"
                 />
 
@@ -82,10 +82,11 @@ export default function HackatonDetails() {
 
               <div className="group relative overflow-hidden rounded-sm">
                 <Image
-                  src="/hs-imagem1.jpg"
-                  alt="Imagem da experiência"
+                  src={IMG.hackathon.group}
+                  alt={t('line-up.5.image-description3')}
                   width={800}
                   height={400}
+                  sizes="(min-width: 768px) 240px, 140px"
                   className="w-full h-30 rounded-sm object-cover"
                 />
 
@@ -96,10 +97,11 @@ export default function HackatonDetails() {
 
               <div className="group relative overflow-hidden rounded-sm">
                 <Image
-                  src="/hs-imagem2.jpg"
-                  alt="Imagem da experiência"
+                  src={IMG.hackathon.evaluator}
+                  alt={t('line-up.5.image-description4')}
                   width={800}
                   height={400}
+                  sizes="(min-width: 768px) 240px, 140px"
                   className="w-full h-30 rounded-sm object-cover"
                 />
 
@@ -109,7 +111,7 @@ export default function HackatonDetails() {
               </div>
 
               <Tabs defaultValue="account" className=" col-span-2 pt-2">
-                <TabsList variant="line" className="w-full justify-cent4er">
+                <TabsList variant="line" className="w-full justify-center">
                   <TabsTrigger value="account">{t('line-up.5.TabsTrigger1')}</TabsTrigger>
                   <MoveRight />
 

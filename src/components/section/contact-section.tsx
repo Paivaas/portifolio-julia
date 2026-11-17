@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { toast } from 'sonner';
 
 import CursorSparkles from '@/components/ui/CursorSparkles';
+import { playSound } from '@/lib/sounds';
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -19,15 +20,15 @@ export default function Contact() {
     const email = 'juliapoliver12@gmail.com';
 
     navigator.clipboard.writeText(email).then(() => {
-      const audio = new Audio('/sounds/sound-bubble.mp3');
-      audio.play();
-      toast.success(t('contact.copy-email.title'), {});
+      playSound('bubble');
+      toast.success(t('contact.copy-email.title'), {
+        description: t('contact.copy-email.description'),
+      });
     });
   }
 
   function soundOpenTabs() {
-    const audio = new Audio('/sounds/sound-blop.mp3');
-    audio.play();
+    playSound('blop');
   }
 
   return (
@@ -44,13 +45,13 @@ export default function Contact() {
           >
             <TabsList variant="line">
               <TabsTrigger value="email" onClick={soundOpenTabs}>
-                Email
+                {t('contact.tabs.email')}
               </TabsTrigger>
               <TabsTrigger value="linkedin" onClick={soundOpenTabs}>
-                Linkedin
+                {t('contact.tabs.linkedin')}
               </TabsTrigger>
-              <TabsTrigger value="telefone" onClick={soundOpenTabs}>
-                Telefone
+              <TabsTrigger value="phone" onClick={soundOpenTabs}>
+                {t('contact.tabs.phone')}
               </TabsTrigger>
             </TabsList>
 
@@ -70,7 +71,7 @@ export default function Contact() {
                 {t('contact.view-linkedin')}
               </a>
             </TabsContent>
-            <TabsContent value="telefone">
+            <TabsContent value="phone">
               <button
                 onClick={sendWhatsAppMessage}
                 className="flex items-center gap-1 cursor-pointer"

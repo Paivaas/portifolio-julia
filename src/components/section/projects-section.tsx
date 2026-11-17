@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
 import Image from 'next/image';
+import { IMG } from '@/lib/images';
 import { ExternalLink } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Skeleton } from '@/components/ui/skeleton';
@@ -49,7 +50,13 @@ export default function Projects() {
           </div>
 
           <div className="relative w-[300px] h-[150px] bg-zinc-100 rounded-sm mt-2 overflow-hidden border-2">
-            <Image src="/banner3.png" alt="figma" fill className="object-cover" />
+            <Image
+              src={IMG.projects.marmitas}
+              alt={t('projects.banner_alt')}
+              fill
+              sizes="300px"
+              className="object-cover"
+            />
           </div>
 
           <div className="flex flex-wrap gap-2">
