@@ -4,15 +4,25 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Badge } from '@/components/ui/badge';
 import Certification from '@/components/section/certification-section';
-import { Card, CardAction, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
 import Image from 'next/image';
 import { IMG } from '@/lib/images';
+import { Calendar } from 'lucide-react';
 
 // Título e descrição vêm das traduções: activities.items.<id>.title / .description
 // A categoria vem de activities.categories.<category>
 const activities = [
   {
     id: 'fluxo',
+    date: 'Outubro 2026',
     org: 'Fluxo Sem Tabu',
     logo: IMG.logos.fluxo,
     banner: IMG.activities.fluxo,
@@ -21,6 +31,7 @@ const activities = [
   },
   {
     id: 'senac_talk',
+    date: 'Novembro 2026',
     org: 'SENAC',
     logo: IMG.logos.senac,
     banner: IMG.activities.senacTalk,
@@ -29,6 +40,7 @@ const activities = [
   },
   {
     id: 'fgv',
+    date: 'Outubro 2026',
     org: 'Fundação Getulio Vargas (FGV)',
     logo: IMG.logos.fgv,
     banner: IMG.activities.fgv,
@@ -38,6 +50,7 @@ const activities = [
   {
     id: 'npaadc',
     org: 'SENAI',
+    date: '2023 - 2024',
     logo: IMG.logos.senai,
     banner: IMG.hackathon.process,
     category: 'extracurricular',
@@ -45,6 +58,7 @@ const activities = [
   },
   {
     id: 'idea_challenge',
+    date: '2024',
     org: 'SENAI & HP',
     logo: IMG.logos.hp,
     banner: IMG.hackathon.group,
@@ -54,6 +68,7 @@ const activities = [
   {
     id: 'cyber_leader',
     org: 'SESI',
+    date: '2020',
     logo: IMG.logos.sesi,
     banner: IMG.hackathon.group,
     category: 'extracurricular',
@@ -61,6 +76,7 @@ const activities = [
   },
   {
     id: 'class_rep',
+    date: '2023 - 2024',
     org: 'SENAI',
     logo: IMG.logos.senai,
     banner: IMG.hackathon.group,
@@ -105,56 +121,62 @@ export default function Activity() {
       {selectedCategory === 'courses' ? (
         <Certification />
       ) : (
-      <div className="grid w-full grid-cols-1 justify-items-center gap-4 sm:grid-cols-2 xl:grid-cols-3">
-        {filteredActivities.map((activity) => {
-          const title = t(`activities.items.${activity.id}.title`);
+        <div className="grid w-full grid-cols-1 justify-items-center gap-4 sm:grid-cols-2 xl:grid-cols-3">
+          {filteredActivities.map((activity) => {
+            const title = t(`activities.items.${activity.id}.title`);
 
-          return (
-            <Card key={activity.id} className="w-full max-w-96 overflow-hidden">
-              <CardHeader>
-                <div className="flex min-w-0 items-center gap-3">
-                  <Image
-                    src={activity.logo}
-                    alt={t('activities.logo_alt', { org: activity.org })}
-                    width={40}
-                    height={40}
-                    className="shrink-0 object-contain"
-                  />
+            return (
+              <Card key={activity.id} className=" w-96 overflow-hidden">
+                <CardHeader className="h-16 flex items-center justify-between">
+                  <div className="flex min-w-0 items-center gap-3">
+                    <Image
+                      src={activity.logo}
+                      alt={t('activities.logo_alt', { org: activity.org })}
+                      width={40}
+                      height={40}
+                      className="shrink-0 object-contain"
+                    />
 
-                  <div className="min-w-0">
-                    <CardTitle className="text-sm">{title}</CardTitle>
-                    <CardDescription>{activity.org}</CardDescription>
+                    <div className="min-w-0">
+                      <CardTitle className="text-sm">{title}</CardTitle>
+                      <CardDescription>{activity.org}</CardDescription>
+                    </div>
                   </div>
-                </div>
 
-                <CardAction>
-                  <Badge className={activity.badgeColor}>
-                    {t(`activities.categories.${activity.category}`)}
-                  </Badge>
-                </CardAction>
-              </CardHeader>
+                  <CardAction>
+                    <Badge className={activity.badgeColor}>
+                      {t(`activities.categories.${activity.category}`)}
+                    </Badge>
+                  </CardAction>
+                </CardHeader>
 
-              <CardContent>
-                <div className="relative h-42 w-full overflow-hidden rounded-lg">
-                  <Image
-                    src={activity.banner}
-                    alt={t('activities.banner_alt', { title })}
-                    fill
-                    sizes="(max-width: 640px) 100vw, 384px"
-                    className="object-cover transition-transform duration-300 hover:scale-105"
-                  />
-                </div>
+                <CardContent>
+                  <div className="relative h-52 w-full overflow-hidden rounded-lg mb-4 group cursor-pointer">
+                    <Image
+                      src={activity.banner}
+                      alt={t('activities.banner_alt', { title })}
+                      fill
+                      sizes="(max-width: 640px) 100vw, 384px"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
 
-                <div className="bg-accent/20 m-2  border-t">
-                  <p className="text-sm leading-relaxed text-muted-foreground">
-                    {t(`activities.items.${activity.id}.description`)}
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-          );
-        })}
-      </div>
+                    {/* Texto sobre a imagem */}
+                    <div className="absolute inset-0 flex items-center justify-center bg-black/70 p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                      <p className="text-sm leading-relaxed text-white text-center">
+                        {t(`activities.items.${activity.id}.description`)}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-1 text-xs">
+                    <Calendar className="text-gray-500" size={14} />
+                    <p className="text-gray-500">Período: {activity.date}</p>
+                  </div>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </div>
       )}
 
       {/* Mensagem caso não existam resultados */}
